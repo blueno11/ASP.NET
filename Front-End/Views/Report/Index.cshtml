@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Báo cáo và thống kê";
+}
+
+<div class="container-fluid">
+    <h2 style="font-weight: bold; color: blue;" class="my-4">Báo cáo và thống kê</h2>
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label for="startDate">Từ ngày</label>
+            <input type="date" class="form-control" id="startDate" />
+        </div>
+        <div class="col-md-4">
+            <label for="endDate">Đến ngày</label>
+            <input type="date" class="form-control" id="endDate" />
+        </div>
+        <div class="col-md-4 align-self-end">
+            <button id="filterBtn" class="btn btn-primary">
+                <i class="fas fa-filter"></i> Lọc
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng khách hàng</h5>
+                    <p class="card-text" id="customerCount">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng hóa đơn</h5>
+                    <p class="card-text" id="invoiceCount">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng doanh thu</h5>
+                    <p class="card-text" id="totalRevenue">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Doanh thu theo ngày</h5>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Khởi tạo biểu đồ
+            const ctx = document.getElementById('revenueChart').getContext('2d');
+            let revenueChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Doanh thu (VND)',
+                        data: [],
+                        borderColor: '#007bff',
+                        backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                        fill: true
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: { title: { display: true, text: 'Ngày' } },
+                        y: { title: { display: true, text: 'Doanh thu' }, beginAtZero: true }
+                    }
+                }
+            });
+
+            // Load dữ liệu báo cáo
+            function loadReport(startDate, endDate) {
+                let url = 'https://localhost:7156/api/report/summary';
+                if (startDate && endDate) {
+                    url += `?startDate=${startDate}&endDate=${endDate}`;
+                }
+
+                $.ajax({
+                    url: url,
+                    method: 'GET',
+                    success: function (data) {
+                        $('#customerCount').text(data.customerCount);
+                        $('#invoiceCount').text(data.invoiceCount);
+                        $('#totalRevenue').text(data.totalRevenue.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+
+                        // Cập nhật biểu đồ
+                        const labels = data.dailyRevenue.map(item => new Date(item.date).toLocaleDateString('vi-VN'));
+                        const revenueData = data.dailyRevenue.map(item => item.revenue);
+                        revenueChart.data.labels = labels;
+                        revenueChart.data.datasets[0].data = revenueData;
+                        revenueChart.update();
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi tải báo cáo: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        alert(errorMessage);
+                    }
+                });
+            }
+
+            // Gọi load báo cáo khi trang được tải
+            loadReport();
+
+            // Xử lý lọc theo ngày
+            $('#filterBtn').click(function () {
+                const startDate = $('#startDate').val();
+                const endDate = $('#endDate').val();
+                if (!startDate || !endDate) {
+                    alert('Vui lòng chọn đầy đủ ngày bắt đầu và ngày kết thúc!');
+                    return;
+                }
+                loadReport(startDate, endDate);
+            });
+        });
+    </script>
+}

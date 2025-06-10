@@ -1,0 +1,115 @@
+﻿@model IEnumerable<Front_End.Models.CategoryDto>
+
+@{
+    ViewData["Title"] = "Danh sách danh mục";
+}
+
+<div class="container-fluid">
+    <h2 style="font-weight: bold; color: blue;" class="my-4">Danh sách danh mục</h2>
+    <p>
+        <a href="@Url.Action("Create", "Categories")" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Thêm danh mục
+        </a>
+    </p>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã danh mục</th>
+                <th>Tên danh mục</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="categoryTable">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.MaDanhMuc</td>
+                        <td>@category.TenDanhMuc</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Categories", new { id = category.MaDanhMuc })" class="btn btn-warning btn-sm">
+                                <i class="fas fa-edit"></i> Sửa
+                            </a>
+                            <button class="btn btn-danger btn-sm delete-btn" data-id="@category.MaDanhMuc">
+                                <i class="fas fa-trash"></i> Xóa
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">Không có danh mục nào.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Load danh mục
+            function loadCategories() {
+                $.ajax({
+                    url: 'https://localhost:7156/api/categories/List',
+                    method: 'GET',
+                    success: function (data) {
+                        let rows = '';
+                        if (data && data.length > 0) {
+                            data.forEach(category => {
+                                rows += `
+                                    <tr>
+                                        <td>${category.maDanhMuc}</td>
+                                        <td>${category.tenDanhMuc}</td>
+                                        <td>
+                                            <a href="/Categories/Edit/${category.maDanhMuc}" class="btn btn-warning btn-sm">
+                                                <i class="fas fa-edit"></i> Sửa
+                                            </a>
+                                            <button class="btn btn-danger btn-sm delete-btn" data-id="${category.maDanhMuc}">
+                                                <i class="fas fa-trash"></i> Xóa
+                                            </button>
+                                        </td>
+                                    </tr>`;
+                            });
+                        } else {
+                            rows = '<tr><td colspan="3" class="text-center">Không có danh mục nào.</td></tr>';
+                        }
+                        $('#categoryTable').html(rows);
+                    },
+                    error: function (xhr) {
+                        alert('Lỗi khi tải danh mục: ' + (xhr.responseJSON?.message || xhr.status + ' - ' + xhr.statusText));
+                    }
+                });
+            }
+
+            loadCategories();
+
+            // Xử lý xóa danh mục
+            $(document).on('click', '.delete-btn', function () {
+                const id = $(this).data('id');
+                if (confirm('Bạn có chắc muốn xóa danh mục này?')) {
+                    $.ajax({
+                        url: `https://localhost:7156/api/categories/Delete/${id}`,
+                        method: 'DELETE',
+                        success: function () {
+                            alert('Xóa danh mục thành công!');
+                            loadCategories(); // Tải lại danh sách
+                        },
+                        error: function (xhr) {
+                            let errorMessage = 'Lỗi khi xóa danh mục: ';
+                            if (xhr.responseJSON && xhr.responseJSON.message) {
+                                errorMessage += xhr.responseJSON.message; // Hiển thị thông báo "Danh mục đang tồn tại sản phẩm."
+                            } else {
+                                errorMessage += xhr.status + ' - ' + xhr.statusText;
+                            }
+                            alert(errorMessage);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

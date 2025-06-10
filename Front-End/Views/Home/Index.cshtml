@@ -1,0 +1,313 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="dashboard-content">
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Dashboard</h1>
+        <p>Tổng quan về hoạt động kinh doanh điện máy</p>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+        <div class="stat-card revenue">
+            <div class="stat-header">
+                <span class="stat-title">Tổng doanh thu</span>
+                <i class="fas fa-dollar-sign stat-icon"></i>
+            </div>
+            <div class="stat-content">
+                <h2 id="totalRevenue">0.0 T ₫</h2>
+                <div class="stat-growth" id="revenueGrowth">
+                    <span class="growth-badge">+0%</span>
+                    <small>so với tháng trước</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-card orders">
+            <div class="stat-header">
+                <span class="stat-title">Đơn hàng</span>
+                <i class="fas fa-shopping-cart stat-icon"></i>
+            </div>
+            <div class="stat-content">
+                <h2 id="totalOrders">0</h2>
+                <div class="stat-growth" id="orderGrowth">
+                    <span class="growth-badge">+0%</span>
+                    <small>so với tháng trước</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-card customers">
+            <div class="stat-header">
+                <span class="stat-title">Khách hàng</span>
+                <i class="fas fa-users stat-icon"></i>
+            </div>
+            <div class="stat-content">
+                <h2 id="totalCustomers">0</h2>
+                <div class="stat-growth" id="customerGrowth">
+                    <span class="growth-badge">+0%</span>
+                    <small>so với tháng trước</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-card products">
+            <div class="stat-header">
+                <span class="stat-title">Sản phẩm</span>
+                <i class="fas fa-box stat-icon"></i>
+            </div>
+            <div class="stat-content">
+                <h2 id="totalProducts">0</h2>
+                <div class="stat-growth" id="productGrowth">
+                    <span class="growth-badge">+0%</span>
+                    <small>so với tháng trước</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts and Activities Row -->
+    <div class="content-row">
+        <!-- Revenue Chart -->
+        <div class="chart-section">
+            <div class="section-header">
+                <h3>Doanh thu 7 ngày qua</h3>
+                <p id="revenueSummary">Tổng: 0 T ₫ | Trung bình: 0 Tr ₫</p>
+                <span class="growth-indicator" id="revenueGrowthIndicator">+0%</span>
+            </div>
+
+            <div class="weekly-revenue" id="weeklyRevenue">
+                <!-- Revenue items will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Recent Activities -->
+        <div class="activities-section">
+            <div class="section-header">
+                <h3><i class="fas fa-bolt"></i> Hoạt động gần đây</h3>
+            </div>
+            <div class="activities-list" id="recentActivities">
+                <!-- Activities will be populated by JavaScript -->
+            </div>
+            <div class="activities-footer">
+                <a href="@Url.Action("Index", "Activities")" class="view-all-activities">Tất cả hoạt động →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="content-row">
+        <!-- Best Selling Products -->
+        <div class="products-section">
+            <div class="section-header">
+                <h3><i class="fas fa-trending-up"></i> Sản phẩm bán chạy nhất</h3>
+            </div>
+            <div class="products-table" id="topProducts">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="quick-actions-section">
+            <div class="section-header">
+                <h3>Thao tác nhanh</h3>
+            </div>
+            <div class="quick-actions-grid">
+                <a href="@Url.Action("Create", "Products")" class="quick-action-card add-product">
+                    <i class="fas fa-plus"></i>
+                    <span>Thêm sản phẩm</span>
+                </a>
+                <a href="@Url.Action("Create", "Orders")" class="quick-action-card create-order">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Tạo đơn hàng</span>
+                </a>
+                <a href="@Url.Action("Create", "Customer")" class="quick-action-card add-customer">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Thêm khách hàng</span>
+                </a>
+                <a href="@Url.Action("Index", "Report")" class="quick-action-card view-reports">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Xem báo cáo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const API_BASE_URL = 'https://localhost:7156';
+
+        // Format currency
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('vi-VN', {
+                style: 'currency',
+                currency: 'VND',
+                notation: 'compact',
+                maximumFractionDigits: 1
+            }).format(amount);
+        }
+
+        // Format percentage
+        function formatPercentage(value) {
+            return `${value >= 0 ? '+' : ''}${value}%`;
+        }
+
+        // Load dashboard statistics
+        async function loadDashboardStatistics() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/report/summary`);
+                if (!response.ok) throw new Error('Lỗi khi tải thống kê');
+                
+                const stats = await response.json();
+                
+                // Update revenue
+                document.getElementById('totalRevenue').textContent = formatCurrency(stats.totalRevenue);
+                
+                // Update orders
+                document.getElementById('totalOrders').textContent = stats.invoiceCount;
+                
+                // Update customers
+                document.getElementById('totalCustomers').textContent = stats.customerCount;
+
+                // Update weekly revenue chart
+                updateWeeklyRevenue(stats.dailyRevenue);
+            } catch (error) {
+                console.error('Error loading dashboard statistics:', error);
+            }
+        }
+
+        // Update weekly revenue chart
+        function updateWeeklyRevenue(dailyRevenue) {
+            const container = document.getElementById('weeklyRevenue');
+            container.innerHTML = '';
+
+            const days = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
+            const today = new Date();
+            
+            // Calculate total and average
+            const total = dailyRevenue.reduce((sum, item) => sum + item.revenue, 0);
+            const average = total / dailyRevenue.length;
+
+            // Update summary
+            document.getElementById('revenueSummary').textContent = 
+                `Tổng: ${formatCurrency(total)} | Trung bình: ${formatCurrency(average)}`;
+
+            // Create revenue items
+            days.forEach((day, index) => {
+                const date = new Date(today);
+                date.setDate(today.getDate() - (6 - index));
+                const dateStr = date.toISOString().split('T')[0];
+                
+                const revenue = dailyRevenue.find(item => 
+                    new Date(item.date).toISOString().split('T')[0] === dateStr
+                )?.revenue || 0;
+
+                const item = document.createElement('div');
+                item.className = 'revenue-item';
+                item.innerHTML = `
+                    <div class="revenue-day">${day}</div>
+                    <div class="revenue-amount">${formatCurrency(revenue)}</div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        // Load recent activities
+        async function loadRecentActivities() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/activities/recent`);
+                if (!response.ok) throw new Error('Lỗi khi tải hoạt động gần đây');
+                
+                const activities = await response.json();
+                const container = document.getElementById('recentActivities');
+                container.innerHTML = '';
+
+                activities.forEach(activity => {
+                    const item = document.createElement('div');
+                    item.className = 'activity-item';
+                    item.innerHTML = `
+                        <div class="activity-icon ${activity.type.toLowerCase()}">
+                            <i class="fas ${getActivityIcon(activity.type)}"></i>
+                        </div>
+                        <div class="activity-content">
+                            <div class="activity-title">${activity.title}</div>
+                            <div class="activity-meta">
+                                <span class="activity-time">
+                                    <i class="fas fa-clock"></i> ${formatTime(activity.time)}
+                                </span>
+                                <span class="activity-category">${activity.category}</span>
+                            </div>
+                        </div>
+                        <a href="${activity.link}" class="activity-link">Xem chi tiết</a>
+                    `;
+                    container.appendChild(item);
+                });
+            } catch (error) {
+                console.error('Error loading recent activities:', error);
+            }
+        }
+
+        // Get activity icon based on type
+        function getActivityIcon(type) {
+            const icons = {
+                'ORDER': 'fa-shopping-cart',
+                'CUSTOMER': 'fa-user',
+                'PRODUCT': 'fa-box',
+                'PROMOTION': 'fa-tag'
+            };
+            return icons[type] || 'fa-info-circle';
+        }
+
+        // Format time
+        function formatTime(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleTimeString('vi-VN', {
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        // Load top selling products
+        async function loadTopProducts() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/products/top-selling`);
+                if (!response.ok) throw new Error('Lỗi khi tải sản phẩm bán chạy');
+                
+                const products = await response.json();
+                const container = document.getElementById('topProducts');
+                container.innerHTML = '';
+
+                products.forEach((product, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'product-row';
+                    item.innerHTML = `
+                        <div class="product-rank">${index + 1}</div>
+                        <div class="product-info">
+                            <div class="product-name">${product.name}</div>
+                            <div class="product-category">${product.category}</div>
+                        </div>
+                        <div class="product-revenue">${formatCurrency(product.revenue)}</div>
+                        <div class="product-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: ${product.percentage}%"></div>
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(item);
+                });
+            } catch (error) {
+                console.error('Error loading top products:', error);
+            }
+        }
+
+        // Load all dashboard data when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDashboardStatistics();
+            loadRecentActivities();
+            loadTopProducts();
+        });
+    </script>
+}

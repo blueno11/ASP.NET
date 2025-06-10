@@ -1,0 +1,127 @@
+@model IEnumerable<Front_End.Models.SanPham>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<div class="container-fluid">
+    <h2 style="font-weight: bold; color: blue;" class="my-4">Danh sách sản phẩm</h2>
+    <p>
+        <a href="@Url.Action("Create", "Products")" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Thêm sản phẩm
+        </a>
+    </p>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Danh mục</th>
+                <th>Trạng thái</th>
+                <th>Số lượng</th>
+                <th>Số tháng bảo hành</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="productTable">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.MaSanPham</td>
+                        <td>@product.TenSanPham</td>
+                        <td>@(product.MaDanhMucNavigation?.TenDanhMuc ?? "N/A")</td>
+                        <td>@product.TrangThai</td>
+                        <td>@product.SoLuong</td>
+                        <td>@product.SoThangBaoHanh</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Products", new { id = product.MaSanPham })" class="btn btn-warning btn-sm">
+                                <i class="fas fa-edit"></i> Sửa
+                            </a>
+                            <button class="btn btn-danger btn-sm delete-btn" data-id="@product.MaSanPham">
+                                <i class="fas fa-trash"></i> Xóa
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center">Không có sản phẩm nào.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Load sản phẩm
+            function loadProducts() {
+                $.ajax({
+                    url: 'https://localhost:7156/api/products/List',
+                    method: 'GET',
+                    success: function (data) {
+                        let rows = '';
+                        if (data && data.length > 0) {
+                            data.forEach(product => {
+                                rows += `
+                                    <tr>
+                                        <td>${product.maSanPham}</td>
+                                        <td>${product.tenSanPham}</td>
+                                        <td>${product.maDanhMucNavigation?.tenDanhMuc || 'N/A'}</td>
+                                        <td>${product.trangThai}</td>
+                                        <td>${product.soLuong}</td>
+                                        <td>${product.soThangBaoHanh}</td>
+                                        <td>
+                                            <a href="/Products/Edit/${product.maSanPham}" class="btn btn-warning btn-sm">
+                                                <i class="fas fa-edit"></i> Sửa
+                                            </a>
+                                            <button class="btn btn-danger btn-sm delete-btn" data-id="${product.maSanPham}">
+                                                <i class="fas fa-trash"></i> Xóa
+                                            </button>
+                                        </td>
+                                    </tr>`;
+                            });
+                        } else {
+                            rows = '<tr><td colspan="7" class="text-center">Không có sản phẩm nào.</td></tr>';
+                        }
+                        $('#productTable').html(rows);
+                    },
+                    error: function (xhr) {
+                        alert('Lỗi khi tải sản phẩm: ' + (xhr.responseJSON?.message || xhr.status + ' - ' + xhr.statusText));
+                    }
+                });
+            }
+
+            loadProducts();
+
+            // Xử lý xóa sản phẩm
+            $(document).on('click', '.delete-btn', function () {
+                const id = $(this).data('id');
+                if (confirm('Bạn có chắc muốn xóa sản phẩm này?')) {
+                    $.ajax({
+                        url: `https://localhost:7156/api/products/Delete/${id}`,
+                        method: 'DELETE',
+                        success: function () {
+                            alert('Xóa sản phẩm thành công!');
+                            loadProducts(); // Tải lại danh sách
+                        },
+                        error: function (xhr) {
+                            let errorMessage = 'Lỗi khi xóa sản phẩm: ';
+                            if (xhr.responseJSON && xhr.responseJSON.message) {
+                                errorMessage += xhr.responseJSON.message;
+                            } else {
+                                errorMessage += xhr.status + ' - ' + xhr.statusText;
+                            }
+                            alert(errorMessage);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

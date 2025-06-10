@@ -1,0 +1,118 @@
+﻿@model List<Front_End.Models.SanPham>
+@{
+    ViewData["Title"] = "Kiểm Kho";
+}
+
+<div class="container py-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0"><i class="fas fa-clipboard-check me-2"></i>Kiểm Kho</h3>
+        </div>
+        <div class="card-body">
+            <div id="sanPhamContainer">
+                <form id="CheckForm">
+                    @if (Model != null && Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Sản Phẩm</th>
+                                        <th class="text-center">Số Lượng Hệ Thống</th>
+                                        <th class="text-center">Số Lượng Thực Tế</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var sp in Model)
+                                    {
+                                        <tr data-masanpham="@sp.MaSanPham">
+                                            <td>
+                                                <label class="form-label fw-bold">@sp.TenSanPham</label>
+                                            </td>
+                                            <td class="text-center">
+                                                <span class="badge bg-info">@sp.SoLuong</span>
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="number"
+                                                       class="form-control form-control-sm so-luong-thuc-te"
+                                                       style="max-width: 120px; margin: 0 auto;"
+                                                       name="soLuongKiemKho[@sp.MaSanPham]"
+                                                       min="0"
+                                                       value="@sp.SoLuong" />
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>Không có sản phẩm nào trong kho.
+                        </div>
+                    }
+
+                    <div class="text-end mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save me-2"></i>Cập nhật
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('CheckForm');
+
+            form.addEventListener('submit', async function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(form);
+                const body = new URLSearchParams(formData);
+
+                try {
+                    const response = await fetch('/Warehouse/CapNhatKiemKho', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded'
+                        },
+                        body: body.toString()
+                    });
+
+                    const result = await response.json();
+
+                    if (response.ok) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Thành công!',
+                            text: result.message || "Cập nhật thành công!",
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                location.reload();
+                            }
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Lỗi!',
+                            text: result.message || response.statusText
+                        });
+                    }
+                } catch (err) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi kết nối!',
+                        text: err.message
+                    });
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Thêm danh mục";
+}
+
+<div class="container-fluid">
+    <h2 class="my-4">Thêm danh mục</h2>
+    <form id="createCategoryForm">
+        <div class="form-group">
+            <label for="tenDanhMuc">Tên danh mục</label>
+            <input type="text" class="form-control" id="tenDanhMuc" required />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">
+            <i class="fas fa-save"></i> Thêm danh mục
+        </button>
+        <a href="@Url.Action("Index", "Categories")" class="btn btn-secondary mt-3">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#createCategoryForm').submit(function (e) {
+                e.preventDefault();
+                const tenDanhMuc = $('#tenDanhMuc').val().trim();
+
+                // Kiểm tra dữ liệu đầu vào
+                if (!tenDanhMuc) {
+                    alert('Vui lòng nhập tên danh mục!');
+                    return;
+                }
+
+                const category = {
+                    tenDanhMuc: tenDanhMuc
+                };
+
+                $.ajax({
+                    url: 'https://localhost:7156/api/categories/Insert',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(category),
+                    success: function () {
+                        alert('Thêm danh mục thành công!');
+                        window.location.href = '@Url.Action("Index", "Categories")';
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi thêm danh mục: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        alert(errorMessage);
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Thêm khách hàng";
+}
+
+<div class="container-fluid">
+    <h2 class="my-4">Thêm khách hàng</h2>
+    <form id="createCustomerForm">
+        <div class="form-group">
+            <label for="tenKhachHang">Tên khách hàng</label>
+            <input type="text" class="form-control" id="tenKhachHang" required />
+        </div>
+        <div class="form-group">
+            <label for="soDienThoai">Số điện thoại</label>
+            <input type="text" class="form-control" id="soDienThoai" required />
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+            <label for="diaChi">Địa chỉ</label>
+            <input type="text" class="form-control" id="diaChi" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">
+            <i class="fas fa-save"></i> Thêm khách hàng
+        </button>
+        <a href="@Url.Action("Index", "Customer")" class="btn btn-secondary mt-3">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#createCustomerForm').submit(function (e) {
+                e.preventDefault();
+                const tenKhachHang = $('#tenKhachHang').val().trim();
+                const soDienThoai = $('#soDienThoai').val().trim();
+                const email = $('#email').val().trim();
+                const diaChi = $('#diaChi').val().trim();
+
+                // Kiểm tra dữ liệu đầu vào
+                if (!tenKhachHang || !soDienThoai || !email) {
+                    alert('Vui lòng nhập đầy đủ tên, số điện thoại và email!');
+                    return;
+                }
+
+                const customer = {
+                    tenKhachHang: tenKhachHang,
+                    soDienThoai: soDienThoai,
+                    email: email,
+                    diaChi: diaChi
+                };
+
+                $.ajax({
+                    url: 'https://localhost:7156/api/customer/Insert',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(customer),
+                    success: function () {
+                        alert('Thêm khách hàng thành công!');
+                        window.location.href = '@Url.Action("Index", "Customer")';
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi thêm khách hàng: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        alert(errorMessage);
+                    }
+                });
+            });
+        });
+    </script>
+}

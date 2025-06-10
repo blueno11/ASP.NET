@@ -1,0 +1,99 @@
+﻿@model Front_End.Models.KhachHang
+
+@{
+    ViewData["Title"] = "Sửa khách hàng";
+}
+
+<div class="container-fluid">
+    <h2 style="font-weight: bold; color: blue;" class="my-4">Sửa khách hàng</h2>
+    @if (Model == null || Model.MaKhachHang <= 0)
+    {
+        <div class="alert alert-danger">
+            Lỗi: Không tìm thấy khách hàng để chỉnh sửa.
+            <a href="@Url.Action("Index", "Customer")" class="btn btn-secondary">Quay lại</a>
+        </div>
+    }
+    else
+    {
+        <div>
+            <b>Mã khách hàng: @Model.MaKhachHang</b>
+        </div>
+        <form id="editCustomerForm">
+            <input type="hidden" id="maKhachHang" value="@Model.MaKhachHang" />
+            <div class="form-group">
+                <label for="tenKhachHang">Tên khách hàng</label>
+                <input type="text" class="form-control" id="tenKhachHang" value="@Model.TenKhachHang" required />
+            </div>
+            <div class="form-group">
+                <label for="soDienThoai">Số điện thoại</label>
+                <input type="text" class="form-control" id="soDienThoai" value="@Model.SoDienThoai" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" value="@Model.Email" required />
+            </div>
+            <div class="form-group">
+                <label for="diaChi">Địa chỉ</label>
+                <input type="text" class="form-control" id="diaChi" value="@Model.DiaChi" />
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">
+                <i class="fas fa-save"></i> Lưu thay đổi
+            </button>
+            <a href="@Url.Action("Index", "Customer")" class="btn btn-secondary mt-3">
+                <i class="fas fa-arrow-left"></i> Quay lại
+            </a>
+        </form>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#editCustomerForm').submit(function (e) {
+                e.preventDefault();
+                const maKhachHang = parseInt($('#maKhachHang').val());
+                const tenKhachHang = $('#tenKhachHang').val().trim();
+                const soDienThoai = $('#soDienThoai').val().trim();
+                const email = $('#email').val().trim();
+                const diaChi = $('#diaChi').val().trim();
+
+                if (!tenKhachHang || !soDienThoai || !email) {
+                    alert('Vui lòng nhập đầy đủ tên, số điện thoại và email!');
+                    return;
+                }
+                if (isNaN(maKhachHang) || maKhachHang <= 0) {
+                    alert('Mã khách hàng không hợp lệ!');
+                    return;
+                }
+
+                const customer = {
+                    maKhachHang: maKhachHang,
+                    tenKhachHang: tenKhachHang,
+                    soDienThoai: soDienThoai,
+                    email: email,
+                    diaChi: diaChi
+                };
+
+                $.ajax({
+                    url: `https://localhost:7156/api/customer/Update/${maKhachHang}`,
+                    method: 'PUT',
+                    contentType: 'application/json',
+                    data: JSON.stringify(customer),
+                    success: function () {
+                        alert('Sửa khách hàng thành công!');
+                        window.location.href = '@Url.Action("Index", "Customer")';
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi sửa khách hàng: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        alert(errorMessage);
+                    }
+                });
+            });
+        });
+    </script>
+}

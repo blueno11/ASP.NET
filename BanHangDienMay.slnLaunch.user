@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BanHangDienMay\\BanHangDienMay.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Front-End\\Front-End.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

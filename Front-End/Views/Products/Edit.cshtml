@@ -1,0 +1,148 @@
+﻿@model Front_End.Models.SanPham
+
+@{
+    ViewData["Title"] = "Sửa sản phẩm";
+}
+
+<div class="container-fluid">
+    <h2 style="font-weight: bold; color: blue;" class="my-4">Chỉnh Sửa sản phẩm</h2>
+    @if (Model == null || Model.MaSanPham <= 0)
+    {
+        <div class="alert alert-danger">
+            Lỗi: Không tìm thấy sản phẩm để chỉnh sửa.
+            <a href="@Url.Action("Index", "Products")" class="btn btn-secondary">Quay lại</a>
+        </div>
+    }
+    else
+    {
+        <div>
+            <B>Mã Sản Phẩm = @Model.MaSanPham</B>
+        </div>
+        <form id="editProductForm">
+            <input type="hidden" id="maSanPham" value="@Model.MaSanPham" />
+            <div class="form-group">
+                <label for="tenSanPham">Update Sản Phẩm</label>
+                <input type="text" class="form-control" id="tenSanPham" value="@Model.TenSanPham" required />
+            </div>
+            <div class="form-group">
+                <label for="maDanhMuc">Danh mục</label>
+                <select class="form-control" id="maDanhMuc" required>
+                    <option value="">Chọn danh mục</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="trangThai">Trạng thái</label>
+                <select class="form-control" id="trangThai" required>
+                    <option value="ConHang">Còn hàng</option>
+                    <option value="HetHang">Hết hàng</option>
+                    <option value="NgungKinhDoanh">Ngừng kinh doanh</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="soLuong">Số lượng</label>
+                <input type="number" class="form-control" id="soLuong" value="@Model.SoLuong" min="0" required />
+            </div>
+            <div class="form-group">
+                <label for="soThangBaoHanh">Số tháng bảo hành</label>
+                <input type="number" class="form-control" id="soThangBaoHanh" value="@Model.SoThangBaoHanh" min="0" required />
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">
+                <i class="fas fa-save"></i> Lưu thay đổi
+            </button>
+            <a href="@Url.Action("Index", "Products")" class="btn btn-secondary mt-3">
+                <i class="fas fa-arrow-left"></i> Quay lại
+            </a>
+        </form>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Load danh mục
+            $.ajax({
+                url: 'https://localhost:7156/api/categories/List',
+                method: 'GET',
+                success: function (data) {
+                    let options = '<option value="">Chọn danh mục</option>';
+                    data.forEach(category => {
+                        const isSelected = category.maDanhMuc === @Model.MaDanhMuc ? 'selected' : '';
+                        options += `<option value="${category.maDanhMuc}" ${isSelected}>${category.tenDanhMuc}</option>`;
+                    });
+                    $('#maDanhMuc').html(options);
+                },
+                error: function (xhr) {
+                    alert('Lỗi khi tải danh mục: ' + (xhr.responseJSON?.message || xhr.status + ' - ' + xhr.statusText));
+                }
+            });
+
+            $('#editProductForm').submit(function (e) {
+                e.preventDefault();
+                const maSanPham = parseInt($('#maSanPham').val());
+                const tenSanPham = $('#tenSanPham').val().trim();
+                const maDanhMuc = parseInt($('#maDanhMuc').val());
+                const trangThai = $('#trangThai').val();
+                const soLuong = parseInt($('#soLuong').val());
+                const soThangBaoHanh = parseInt($('#soThangBaoHanh').val());
+
+                console.log('maSanPham:', maSanPham);
+
+                if (isNaN(maSanPham) || maSanPham <= 0) {
+                    alert('Mã sản phẩm không hợp lệ! Giá trị: ' + $('#maSanPham').val());
+                    return;
+                }
+                if (!tenSanPham) {
+                    alert('Vui lòng nhập tên sản phẩm!');
+                    return;
+                }
+                if (isNaN(maDanhMuc) || maDanhMuc <= 0) {
+                    alert('Vui lòng chọn danh mục!');
+                    return;
+                }
+                if (!trangThai) {
+                    alert('Vui lòng chọn trạng thái!');
+                    return;
+                }
+                if (isNaN(soLuong) || soLuong < 0) {
+                    alert('Số lượng không hợp lệ!');
+                    return;
+                }
+                if (isNaN(soThangBaoHanh) || soThangBaoHanh < 0) {
+                    alert('Số tháng bảo hành không hợp lệ!');
+                    return;
+                }
+
+                const product = {
+                    maSanPham: maSanPham,
+                    tenSanPham: tenSanPham,
+                    maDanhMuc: maDanhMuc,
+                    trangThai: trangThai,
+                    soLuong: soLuong,
+                    soThangBaoHanh: soThangBaoHanh
+                };
+
+                console.log('Dữ liệu gửi:', product);
+
+                $.ajax({
+                    url: `https://localhost:7156/api/products/Update/${maSanPham}`,
+                    method: 'PUT',
+                    contentType: 'application/json',
+                    data: JSON.stringify(product),
+                    success: function () {
+                        alert('Sửa sản phẩm thành công!');
+                        window.location.href = '@Url.Action("Index", "Products")';
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi sửa sản phẩm: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        alert(errorMessage);
+                    }
+                });
+            });
+        });
+    </script>
+}

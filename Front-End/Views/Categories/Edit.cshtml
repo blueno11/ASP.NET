@@ -1,0 +1,85 @@
+﻿@model Front_End.Models.CategoryDto
+
+@{
+    ViewData["Title"] = "Sửa danh mục";
+}
+
+<div class="container-fluid">
+    <h2 style="font-weight: bold; color: blue;"class="my-4">Chỉnh Sửa Danh Mục</h2>
+    @if (Model == null || Model.MaDanhMuc <= 0)
+    {
+        <div class="alert alert-danger">
+            Lỗi: Không tìm thấy danh mục để chỉnh sửa.
+            <a href="@Url.Action("Index", "Categories")" class="btn btn-secondary">Quay lại</a>
+        </div>
+    }
+    else
+    {
+        <div>
+            <B>Mã Danh Mục: @Model.MaDanhMuc</B>
+        </div>
+        <form id="editCategoryForm">
+            <input type="hidden" id="maDanhMuc" value="@Model.MaDanhMuc" />
+            <div class="form-group">
+                <label for="tenDanhMuc">Nhập Tên Danh Mục Mới</label>
+                <input type="text" class="form-control" id="tenDanhMuc" value="@Model.TenDanhMuc" required />
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">
+                <i class="fas fa-save"></i> Lưu thay đổi
+            </button>
+            <a href="@Url.Action("Index", "Categories")" class="btn btn-secondary mt-3">
+                <i class="fas fa-arrow-left"></i> Quay lại
+            </a>
+        </form>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#editCategoryForm').submit(function (e) {
+                e.preventDefault();
+                const maDanhMuc = parseInt($('#maDanhMuc').val());
+                const tenDanhMuc = $('#tenDanhMuc').val().trim();
+
+                console.log('maDanhMuc:', maDanhMuc);
+
+                if (!tenDanhMuc) {
+                    alert('Vui lòng nhập tên danh mục!');
+                    return;
+                }
+                if (isNaN(maDanhMuc) || maDanhMuc <= 0) {
+                    alert('Mã danh mục không hợp lệ! Giá trị: ' + $('#maDanhMuc').val());
+                    return;
+                }
+
+                const category = {
+                    maDanhMuc: maDanhMuc,
+                    tenDanhMuc: tenDanhMuc
+                };
+
+                console.log('Dữ liệu gửi:', category);
+
+                $.ajax({
+                    url: `https://localhost:7156/api/categories/Update/${maDanhMuc}`,
+                    method: 'PUT',
+                    contentType: 'application/json',
+                    data: JSON.stringify(category),
+                    success: function () {
+                        alert('Sửa danh mục thành công!');
+                        window.location.href = '@Url.Action("Index", "Categories")';
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi sửa danh mục: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        alert(errorMessage);
+                    }
+                });
+            });
+        });
+    </script>
+}

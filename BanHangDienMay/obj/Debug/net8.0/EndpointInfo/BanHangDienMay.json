@@ -1,0 +1,1148 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BanHangDienMay",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Categories/List": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/{id}": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/Insert": {
+      "post": {
+        "tags": [
+          "Categories"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucSanPham"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucSanPham"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucSanPham"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/Update/{id}": {
+      "put": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucSanPham"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucSanPham"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucSanPham"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customer/List": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KhachHang"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KhachHang"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KhachHang"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Customer/{id}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KhachHang"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KhachHang"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KhachHang"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Customer/Insert": {
+      "post": {
+        "tags": [
+          "Customer"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhachHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhachHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhachHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KhachHang"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KhachHang"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KhachHang"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Customer/Update/{id}": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhachHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhachHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhachHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customer/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customer/Statistics": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/List": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/{id}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Insert": {
+      "post": {
+        "tags": [
+          "Products"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPham"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPham"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPham"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Update/{id}": {
+      "put": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPham"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPham"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPham"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Report/summary": {
+      "get": {
+        "tags": [
+          "Report"
+        ],
+        "parameters": [
+          {
+            "name": "startDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "endDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Warehouse/sanpham": {
+      "get": {
+        "tags": [
+          "Warehouse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SanPham"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Warehouse/capnhat": {
+      "post": {
+        "tags": [
+          "Warehouse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Warehouse/kiemkho": {
+      "post": {
+        "tags": [
+          "Warehouse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Warehouse/test-connection": {
+      "get": {
+        "tags": [
+          "Warehouse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ChiTietDonHang": {
+        "type": "object",
+        "properties": {
+          "maChiTiet": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHoaDon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maSanPham": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "giaBan": {
+            "type": "number",
+            "format": "double"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soThangBaoHanh": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maHoaDonNavigation": {
+            "$ref": "#/components/schemas/HoaDon"
+          },
+          "maSanPhamNavigation": {
+            "$ref": "#/components/schemas/SanPham"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhMucSanPham": {
+        "type": "object",
+        "properties": {
+          "maDanhMuc": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDanhMuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "sanPhams": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SanPham"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HoaDon": {
+        "type": "object",
+        "properties": {
+          "maHoaDon": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayDat": {
+            "type": "string",
+            "format": "date"
+          },
+          "tongTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "maKhuyenMai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chiTietDonHangs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChiTietDonHang"
+            },
+            "nullable": true
+          },
+          "maKhachHangNavigation": {
+            "$ref": "#/components/schemas/KhachHang"
+          },
+          "maKhuyenMaiNavigation": {
+            "$ref": "#/components/schemas/KhuyenMai"
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          },
+          "yeuCauDoiTras": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauDoiTra"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KhachHang": {
+        "type": "object",
+        "properties": {
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenKhachHang": {
+            "type": "string",
+            "nullable": true
+          },
+          "soDienThoai": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayTao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hoaDons": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HoaDon"
+            },
+            "nullable": true
+          },
+          "yeuCauBaoTris": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauBaoTri"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KhuyenMai": {
+        "type": "object",
+        "properties": {
+          "maKhuyenMai": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenKhuyenMai": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "phanTramGiam": {
+            "type": "number",
+            "format": "double"
+          },
+          "ngayBatDau": {
+            "type": "string",
+            "format": "date"
+          },
+          "ngayKetThuc": {
+            "type": "string",
+            "format": "date"
+          },
+          "hoaDons": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HoaDon"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NguoiDung": {
+        "type": "object",
+        "properties": {
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaiTro": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoaDons": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HoaDon"
+            },
+            "nullable": true
+          },
+          "nhapKhos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhapKho"
+            },
+            "nullable": true
+          },
+          "yeuCauBaoTris": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauBaoTri"
+            },
+            "nullable": true
+          },
+          "yeuCauDoiTras": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauDoiTra"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhapKho": {
+        "required": [
+          "donGia",
+          "maNguoiDung",
+          "maSanPham",
+          "soLuong"
+        ],
+        "type": "object",
+        "properties": {
+          "maNhapKho": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maSanPham": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donGia": {
+            "type": "number",
+            "format": "double"
+          },
+          "ngayNhap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lyDo": {
+            "type": "string",
+            "nullable": true
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          },
+          "maSanPhamNavigation": {
+            "$ref": "#/components/schemas/SanPham"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SanPham": {
+        "type": "object",
+        "properties": {
+          "maSanPham": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maDanhMuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tenSanPham": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "soThangBaoHanh": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chiTietDonHangs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChiTietDonHang"
+            },
+            "nullable": true
+          },
+          "maDanhMucNavigation": {
+            "$ref": "#/components/schemas/DanhMucSanPham"
+          },
+          "nhapKhos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhapKho"
+            },
+            "nullable": true
+          },
+          "yeuCauBaoTris": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauBaoTri"
+            },
+            "nullable": true
+          },
+          "yeuCauDoiTras": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/YeuCauDoiTra"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "YeuCauBaoTri": {
+        "type": "object",
+        "properties": {
+          "maBaoTri": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maSanPham": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayYeuCau": {
+            "type": "string",
+            "format": "date"
+          },
+          "moTaSuCo": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayXuLy": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maKhachHangNavigation": {
+            "$ref": "#/components/schemas/KhachHang"
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          },
+          "maSanPhamNavigation": {
+            "$ref": "#/components/schemas/SanPham"
+          }
+        },
+        "additionalProperties": false
+      },
+      "YeuCauDoiTra": {
+        "type": "object",
+        "properties": {
+          "maYeuCau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHoaDon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maSanPham": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayYeuCau": {
+            "type": "string",
+            "format": "date"
+          },
+          "lyDo": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayXuLy": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maHoaDonNavigation": {
+            "$ref": "#/components/schemas/HoaDon"
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          },
+          "maSanPhamNavigation": {
+            "$ref": "#/components/schemas/SanPham"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
