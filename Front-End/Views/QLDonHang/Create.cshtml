@@ -1,0 +1,147 @@
+﻿@model GioHangViewModel
+@{
+    ViewData["Title"] = "Giỏ Hàng";
+    var gioHang = Model.GioHang ?? new List<GioHangItem>();
+    var tongTien = gioHang.Sum(sp => sp.Gia * sp.SoLuong);
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+
+<h2>Thêm sản phẩm vào giỏ</h2>
+
+<form method="get" asp-action="Create" class="row g-3 mb-4">
+    <div class="col-md-4">
+        <label class="form-label">Loại sản phẩm</label>
+        <select class="form-select" name="loai">
+            <option value="">-- Tất cả --</option>
+            @foreach (var loai in Model.DanhSachLoai)
+            {
+                <option value="@loai.MaDanhMuc" selected="@(Model.LoaiDuocChon == loai.MaDanhMuc)">
+                    @loai.TenDanhMuc
+                </option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Tìm kiếm</label>
+        <input type="text" class="form-control" name="tuKhoa" value="@Model.TuKhoa" placeholder="Tên sản phẩm..." />
+    </div>
+    <div class="col-md-2 align-self-end">
+        <button type="submit" class="btn btn-primary">Lọc / Tìm</button>
+    </div>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Loại</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sp in Model.DanhSachSanPham)
+        {
+            <tr>
+                <td>@sp.TenSanPham</td>
+                <td>@(sp.Gia.ToString("N1")) đ</td>
+                <td>@sp.Loai</td>
+                <td>
+                    <form asp-action="ThemVaoGio" method="post">
+                        <input type="hidden" name="maSanPham" value="@sp.MaSanPham" />
+                        <input type="hidden" name="tuKhoa" value="@Model.TuKhoa" />
+                        <input type="hidden" name="loai" value="@Model.LoaiDuocChon" />
+                        <button class="btn btn-success btn-sm">+ Thêm vào giỏ</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>🛒 Giỏ Hàng</h3>
+
+@if (gioHang.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in gioHang)
+            {
+                <tr>
+                    <td>@item.TenSanPham</td>
+                    <td>@(item.Gia.ToString("N1")) đ</td>
+                    <td>@item.SoLuong</td>
+                    @{
+                        var tinh = item.Gia * item.SoLuong;
+                    }
+                    <td>@(tinh.ToString("N1")) đ</td>
+                    <td>
+                        <form asp-action="XoaKhoiGio" method="post">
+                            <input type="hidden" name="maSanPham" value="@item.MaSanPham" />
+                            <button class="btn btn-danger btn-sm">Xoá</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    //them dropdown khuyen mai va hien tong tien sau khi ap ma (Q)
+    <div class="mb-3">
+        <label class="form-label">Chọn khuyến mãi</label>
+        <select class="form-select" id="maKhuyenMai" name="maKhuyenMai">
+            <option value="">-- Không áp dụng khuyến mãi --</option>
+            @foreach (var khuyenMai in Model.DanhSachKhuyenMai)
+            {
+                <option value="@khuyenMai.MaKhuyenMai" data-discount="@khuyenMai.PhanTramGiam">
+                    @khuyenMai.TenKhuyenMai (@khuyenMai.PhanTramGiam% giảm)
+                </option>
+            }
+        </select>
+    </div>
+
+    <h4 class="text-end">
+        Tổng tiền gốc: <span class="text-danger fw-bold" id="tongTienGoc">@tongTien.ToString("N1") đ</span>
+    </h4>
+    <h4 class="text-end">
+        Tổng tiền sau giảm: <span class="text-danger fw-bold" id="tongTienSauGiam">@tongTien.ToString("N1") đ</span>
+    </h4>
+
+    <form asp-action="ThanhToan" method="post">
+        <input type="hidden" id="hiddenMaKhuyenMai" name="maKhuyenMai" value="" />
+        <button type="submit" class="btn btn-primary">💳 Thanh toán</button>
+    </form>
+}
+else
+{
+    <p>Không có sản phẩm nào trong giỏ hàng.</p>
+}
+
+@section Scripts {
+    <script>
+        jQuery(document).ready(function () {
+            const tongTienGoc = @tongTien;
+            console.log('Tổng tiền gốc:', tongTienGoc);
+            jQuery('#maKhuyenMai').change(function () {
+                const discountPercent = parseFloat(jQuery(this).find(':selected').data('discount')) || 0;
+                console.log('Phần trăm giảm:', discountPercent);
+                const tongTienSauGiam = tongTienGoc * (1 - discountPercent / 100);
+                jQuery('#tongTienSauGiam').text(tongTienSauGiam.toLocaleString('vi-VN', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + ' đ');
+                jQuery('#hiddenMaKhuyenMai').val(jQuery(this).val());
+            });
+        });
+    </script>
+}

@@ -1,0 +1,62 @@
+﻿@model Front_End.Models.KhuyenMai
+@{
+    ViewData["Title"] = "Tạo khuyến mãi mới";
+}
+
+<h2>Tạo khuyến mãi mới</h2>
+
+<form id="createPromotionForm">
+    <div class="form-group">
+        <label for="tenKhuyenMai">Tên khuyến mãi</label>
+        <input type="text" class="form-control" id="tenKhuyenMai" name="tenKhuyenMai" required>
+    </div>
+    <div class="form-group">
+        <label for="moTa">Mô tả</label>
+        <textarea class="form-control" id="moTa" name="moTa"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="phanTramGiam">Phần trăm giảm</label>
+        <input type="number" class="form-control" id="phanTramGiam" name="phanTramGiam" min="0" max="100" required>
+    </div>
+    <div class="form-group">
+        <label for="ngayBatDau">Ngày bắt đầu</label>
+        <input type="date" class="form-control" id="ngayBatDau" name="ngayBatDau" required>
+    </div>
+    <div class="form-group">
+        <label for="ngayKetThuc">Ngày kết thúc</label>
+        <input type="date" class="form-control" id="ngayKetThuc" name="ngayKetThuc" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Tạo</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#createPromotionForm').submit(function (e) {
+                e.preventDefault();
+                var promotion = {
+                    tenKhuyenMai: $('#tenKhuyenMai').val(),
+                    moTa: $('#moTa').val(),
+                    phanTramGiam: parseFloat($('#phanTramGiam').val()),
+                    ngayBatDau: $('#ngayBatDau').val(),
+                    ngayKetThuc: $('#ngayKetThuc').val()
+                };
+
+                $.ajax({
+                    url: 'https://localhost:7156/api/promotions/Insert',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(promotion),
+                    success: function () {
+                        alert('Tạo khuyến mãi thành công!');
+                        window.location.href = '/Promotions';
+                    },
+                    error: function (xhr) {
+                        alert('Lỗi khi tạo khuyến mãi: ' + xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+}

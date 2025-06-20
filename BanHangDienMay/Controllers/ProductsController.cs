@@ -16,10 +16,32 @@ public class ProductsController : ControllerBase
 
     // GET: api/products
     [HttpGet("List")]
-    public async Task<IActionResult> GetAllProducts()
+    public async Task<IActionResult> GetAllProducts(int? maDanhMuc)
     {
-        var products = await _context.SanPhams
-            .Include(p => p.MaDanhMucNavigation)
+        var query = _context.SanPhams.AsQueryable();
+
+        // Lọc theo danh mục nếu có
+        if (maDanhMuc.HasValue)
+        {
+            query = query.Where(p => p.MaDanhMuc == maDanhMuc.Value);
+        }
+
+        var products = await query
+            .Select(p => new ProductDto
+            {
+                MaSanPham = p.MaSanPham,
+                MaDanhMuc = p.MaDanhMuc,
+                TenSanPham = p.TenSanPham,
+                TrangThai = p.TrangThai,
+                SoThangBaoHanh = p.SoThangBaoHanh,
+                SoLuong = p.SoLuong,
+                Gia = p.Gia,
+                MaDanhMucNavigation = p.MaDanhMucNavigation != null ? new CategoryDto
+                {
+                    MaDanhMuc = p.MaDanhMucNavigation.MaDanhMuc,
+                    TenDanhMuc = p.MaDanhMucNavigation.TenDanhMuc
+                } : null
+            })
             .ToListAsync();
 
         return Ok(products);
@@ -32,37 +54,50 @@ public class ProductsController : ControllerBase
     public async Task<IActionResult> GetProduct(int id)
     {
         var product = await _context.SanPhams
-            .Include(p => p.MaDanhMucNavigation)
-            .FirstOrDefaultAsync(p => p.MaSanPham == id);
+            .Where(p => p.MaSanPham == id)
+            .Select(p => new ProductDto
+            {
+                MaSanPham = p.MaSanPham,
+                MaDanhMuc = p.MaDanhMuc,
+                TenSanPham = p.TenSanPham,
+                TrangThai = p.TrangThai,
+                SoThangBaoHanh = p.SoThangBaoHanh,
+                SoLuong = p.SoLuong,
+                Gia = p.Gia,
+                MaDanhMucNavigation = p.MaDanhMucNavigation != null ? new CategoryDto
+                {
+                    MaDanhMuc = p.MaDanhMucNavigation.MaDanhMuc,
+                    TenDanhMuc = p.MaDanhMucNavigation.TenDanhMuc
+                } : null
+            })
+            .FirstOrDefaultAsync();
         if (product == null) return NotFound("Sản phẩm không tồn tại.");
         return Ok(product);
     }
 
-    // POST: api/products
     [HttpPost("Insert")]
     public async Task<IActionResult> CreateProduct([FromBody] SanPham product)
     {
         if (product == null || string.IsNullOrWhiteSpace(product.TenSanPham))
             return BadRequest("Tên sản phẩm không hợp lệ.");
 
-        // Kiểm tra danh mục tồn tại
         if (!await _context.DanhMucSanPhams.AnyAsync(c => c.MaDanhMuc == product.MaDanhMuc))
             return BadRequest("Danh mục không tồn tại.");
 
-        // Kiểm tra trạng thái hợp lệ
         if (product.TrangThai != "ConHang" && product.TrangThai != "HetHang" && product.TrangThai != "NgungKinhDoanh")
             return BadRequest("Trạng thái không hợp lệ.");
 
-        // Kiểm tra số lượng và bảo hành không âm
         if (product.SoLuong < 0 || product.SoThangBaoHanh < 0)
             return BadRequest("Số lượng và số tháng bảo hành phải không âm.");
+
+        if (product.Gia < 0) // Kiểm tra giá trị âm
+            return BadRequest("Giá sản phẩm không được âm.");
 
         _context.SanPhams.Add(product);
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetProduct), new { id = product.MaSanPham }, product);
     }
 
-    // PUT: api/products/5
     [HttpPut("Update/{id}")]
     public async Task<IActionResult> UpdateProduct(int id, [FromBody] SanPham product)
     {
@@ -72,24 +107,26 @@ public class ProductsController : ControllerBase
         var existingProduct = await _context.SanPhams.FindAsync(id);
         if (existingProduct == null) return NotFound("Sản phẩm không tồn tại.");
 
-        // Kiểm tra danh mục tồn tại
         if (!await _context.DanhMucSanPhams.AnyAsync(c => c.MaDanhMuc == product.MaDanhMuc))
+        {
             return BadRequest("Danh mục không tồn tại.");
+        }
 
-        // Kiểm tra trạng thái hợp lệ
         if (product.TrangThai != "ConHang" && product.TrangThai != "HetHang" && product.TrangThai != "NgungKinhDoanh")
             return BadRequest("Trạng thái không hợp lệ.");
 
-        // Kiểm tra số lượng và bảo hành không âm
         if (product.SoLuong < 0 || product.SoThangBaoHanh < 0)
             return BadRequest("Số lượng và số tháng bảo hành phải không âm.");
+
+        if (product.Gia < 0) // Kiểm tra giá trị âm
+            return BadRequest("Giá sản phẩm không được âm.");
 
         existingProduct.TenSanPham = product.TenSanPham;
         existingProduct.MaDanhMuc = product.MaDanhMuc;
         existingProduct.TrangThai = product.TrangThai;
         existingProduct.SoThangBaoHanh = product.SoThangBaoHanh;
         existingProduct.SoLuong = product.SoLuong;
-
+        existingProduct.Gia = product.Gia;
         await _context.SaveChangesAsync();
         return NoContent();
     }
@@ -111,4 +148,21 @@ public class ProductsController : ControllerBase
         await _context.SaveChangesAsync();
         return NoContent();
     }
+}
+
+public class ProductDto()
+{
+    public int MaSanPham { get; set; }
+
+    public int? MaDanhMuc { get; set; }
+
+    public string TenSanPham { get; set; } = null!;
+
+    public string TrangThai { get; set; } = null!;
+
+    public int? SoThangBaoHanh { get; set; }
+
+    public int SoLuong { get; set; }
+    public decimal? Gia { get; set; }
+    public CategoryDto? MaDanhMucNavigation { get; set; } // Thêm thông tin danh mục
 }

@@ -54,7 +54,7 @@
                     </ul>
                 </li>
                 <li class="menu-item">
-                    <a href="@Url.Action("Index", "Orders")">
+                    <a href="@Url.Action("Index", "QLDonHang")">
                         <i class="fas fa-shopping-cart"></i>
                         <span>Quản lý đơn hàng</span>
                     </a>
@@ -127,8 +127,26 @@
                         </div>
 
                         <div class="user-profile">
-                            <span class="user-name">Quản trị viên</span>
-                            <small class="user-role">Admin</small>
+                            <span class="user-name">
+                                @if (Context.Session.GetString("TenDangNhap") != null)
+                                {
+                                    <text>Chào mừng, @Context.Session.GetString("TenDangNhap")!</text>
+                                }
+                                else
+                                {
+                                    <text>Khách</text>
+                                }
+                            </span>
+                            <small class="user-role">
+                                @if (Context.Session.GetString("VaiTro") != null)
+                                {
+                                    <text>@Context.Session.GetString("VaiTro")</text>
+                                }
+                                else
+                                {
+                                    <text>Chưa xác định</text>
+                                }
+                            </small>
                         </div>
                     </div>
                 </div>

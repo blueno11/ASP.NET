@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Categories/List": {
       "get": {
         "tags": [
@@ -339,10 +370,32 @@
         }
       }
     },
+    "/api/HealthCheck": {
+      "get": {
+        "tags": [
+          "HealthCheck"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Products/List": {
       "get": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "maDanhMuc",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -451,6 +504,292 @@
       "delete": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promotions/List": {
+      "get": {
+        "tags": [
+          "Promotions"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promotions/{id}": {
+      "get": {
+        "tags": [
+          "Promotions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promotions/Insert": {
+      "post": {
+        "tags": [
+          "Promotions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhuyenMai"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhuyenMai"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhuyenMai"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promotions/Update/{id}": {
+      "put": {
+        "tags": [
+          "Promotions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhuyenMai"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhuyenMai"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KhuyenMai"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promotions/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Promotions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promotions/End/{id}": {
+      "put": {
+        "tags": [
+          "Promotions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QLDonHang": {
+      "get": {
+        "tags": [
+          "QLDonHang"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HoaDonDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HoaDonDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HoaDonDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/QLDonHang/Add": {
+      "post": {
+        "tags": [
+          "QLDonHang"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDonDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDonDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDonDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QLDonHang/AddChiTiet": {
+      "post": {
+        "tags": [
+          "QLDonHang"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ChiTietHoaDonDto"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ChiTietHoaDonDto"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ChiTietHoaDonDto"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QLDonHang/ChiTietDonHang/{id}": {
+      "get": {
+        "tags": [
+          "QLDonHang"
         ],
         "parameters": [
           {
@@ -701,6 +1040,41 @@
         },
         "additionalProperties": false
       },
+      "ChiTietHoaDonDto": {
+        "type": "object",
+        "properties": {
+          "maChiTiet": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maSanPham": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHoaDon": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenSanPham": {
+            "type": "string",
+            "nullable": true
+          },
+          "giaBan": {
+            "type": "number",
+            "format": "double"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soThangBaoHanh": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DanhMucSanPham": {
         "type": "object",
         "properties": {
@@ -774,6 +1148,37 @@
               "$ref": "#/components/schemas/YeuCauDoiTra"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HoaDonDto": {
+        "type": "object",
+        "properties": {
+          "ma_hoa_don": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ma_khach_hang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngay_dat": {
+            "type": "string",
+            "format": "date"
+          },
+          "tong_tien": {
+            "type": "number",
+            "format": "double"
+          },
+          "ma_khuyen_mai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ma_nguoi_dung": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -854,6 +1259,20 @@
             "items": {
               "$ref": "#/components/schemas/HoaDon"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -983,6 +1402,10 @@
           "soLuong": {
             "type": "integer",
             "format": "int32"
+          },
+          "gia": {
+            "type": "number",
+            "format": "double"
           },
           "chiTietDonHangs": {
             "type": "array",

@@ -1,125 +1,177 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\",
+  "WorkspaceRootPath": "E:\\Test\\ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\models\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\models\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\qldonhang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\qldonhang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\controllers\\qldonhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\controllers\\qldonhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\models\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\models\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\models\\qlbanhangdienmaycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\models\\qlbanhangdienmaycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\models\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\models\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\qldonhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\qldonhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\models\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\models\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\promotions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\promotions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\promotions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\promotions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\front-end.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\front-end.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\banhangdienmay\\banhangdienmay.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\banhangdienmay.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\banhangdienmay.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|c:\\users\\thang\\documents\\zalo received files\\asp.net-main (2)\\asp.net-main\\front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|e:\\test\\asp.net\\banhangdienmay\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAD2781-362C-4A6F-BB5A-35F9C54CF2E3}|BanHangDienMay\\BanHangDienMay.csproj|solutionrelative:banhangdienmay\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|e:\\test\\asp.net\\front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{855A4ED2-9B94-462A-A910-44D0654539EE}|Front-End\\Front-End.csproj|solutionrelative:front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -133,191 +185,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Front-End\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Front-End\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:11:55.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Program.cs",
-              "RelativeDocumentMoniker": "Front-End\\Program.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Program.cs",
-              "RelativeToolTip": "Front-End\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:49:29.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Models\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Front-End\\Models\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Models\\CategoryDto.cs",
-              "RelativeToolTip": "Front-End\\Models\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:03:27.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Front-End\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Front-End\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-01T17:46:25.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Program.cs",
-              "RelativeDocumentMoniker": "BanHangDienMay\\Program.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Program.cs",
-              "RelativeToolTip": "BanHangDienMay\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:35:59.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\appsettings.json",
-              "RelativeDocumentMoniker": "BanHangDienMay\\appsettings.json",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\appsettings.json",
-              "RelativeToolTip": "BanHangDienMay\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-26T14:38:57.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T11:21:10.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T10:16:48.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Front-End\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Front-End\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T10:58:26.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Login\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T07:27:03.566Z",
+              "WhenOpened": "2025-06-20T10:16:54.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:27:10.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "QLDonHangController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\QLDonHangController.cs",
+              "RelativeDocumentMoniker": "Front-End\\Controllers\\QLDonHangController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\QLDonHangController.cs",
+              "RelativeToolTip": "Front-End\\Controllers\\QLDonHangController.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAiwOsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T12:41:32.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Front-End\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Front-End\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:11:55.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Front-End\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Front-End\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:29:26.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Front-End\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Front-End\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T10:59:00.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "BanHangDienMay\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAqwGIAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T03:27:50.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T16:52:10.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Front-End\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Front-End\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:21:29.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Front-End\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Front-End\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:29:26.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "NhapKho.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\NhapKho.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Models\\NhapKho.cs",
               "RelativeDocumentMoniker": "BanHangDienMay\\Models\\NhapKho.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\NhapKho.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Models\\NhapKho.cs",
               "RelativeToolTip": "BanHangDienMay\\Models\\NhapKho.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -326,121 +306,278 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\KhachHang.cs",
-              "RelativeDocumentMoniker": "BanHangDienMay\\Models\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\KhachHang.cs",
-              "RelativeToolTip": "BanHangDienMay\\Models\\KhachHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Program.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Program.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Program.cs",
+              "RelativeToolTip": "BanHangDienMay\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T09:20:24.636Z",
+              "WhenOpened": "2025-05-26T14:35:59.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "QlbanHangDienMayContext.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\QlbanHangDienMayContext.cs",
-              "RelativeDocumentMoniker": "BanHangDienMay\\Models\\QlbanHangDienMayContext.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\QlbanHangDienMayContext.cs",
-              "RelativeToolTip": "BanHangDienMay\\Models\\QlbanHangDienMayContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAhwCgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:36:47.298Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:27:03.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Promotions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Promotions\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Promotions\\Index.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Promotions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T11:10:29.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\QLDonHang\\Create.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\QLDonHang\\Create.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\QLDonHang\\Create.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\QLDonHang\\Create.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwGoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T12:39:08.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Products\\Create.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T07:27:10.499Z"
+              "WhenOpened": "2025-06-01T16:52:10.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Front-End\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Front-End\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T09:21:29.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Categories\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Categories\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Categories\\Edit.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Categories\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T16:51:46.924Z"
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Models\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Front-End\\Models\\CategoryDto.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Models\\CategoryDto.cs",
+              "RelativeToolTip": "Front-End\\Models\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:03:27.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Models\\SanPham.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Models\\SanPham.cs",
+              "RelativeToolTip": "BanHangDienMay\\Models\\SanPham.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:04:42.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T16:52:29.013Z"
+              "Title": "QLDonHangController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\QLDonHangController.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\QLDonHangController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\QLDonHangController.cs",
+              "RelativeToolTip": "BanHangDienMay\\Controllers\\QLDonHangController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwGAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T12:12:01.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAswD4AAAApAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Promotions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Promotions\\Edit.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Promotions\\Edit.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Promotions\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T08:28:52.696Z"
+              "WhenOpened": "2025-06-20T11:05:03.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "BanHangDienMay\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:07:18.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T16:52:29.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Promotions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Promotions\\Create.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Promotions\\Create.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Promotions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T11:03:58.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Front-End\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Front-End\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowBwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:15:24.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "SanPham.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Models\\SanPham.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Models\\SanPham.cs",
               "RelativeDocumentMoniker": "Front-End\\Models\\SanPham.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Models\\SanPham.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Models\\SanPham.cs",
               "RelativeToolTip": "Front-End\\Models\\SanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T17:03:51.799Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Categories\\Create.cshtml",
-              "RelativeDocumentMoniker": "Front-End\\Views\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Views\\Categories\\Create.cshtml",
-              "RelativeToolTip": "Front-End\\Views\\Categories\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T16:51:28.572Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Program.cs",
+              "RelativeDocumentMoniker": "Front-End\\Program.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Program.cs",
+              "RelativeToolTip": "Front-End\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:49:29.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "jquery.js",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "RelativeDocumentMoniker": "Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "RelativeToolTip": "Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-02T01:03:05.805Z"
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T11:21:10.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\ReportController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "BanHangDienMay\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:06:25.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Front-End.csproj",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Front-End.csproj",
+              "RelativeDocumentMoniker": "Front-End\\Front-End.csproj",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Front-End.csproj",
+              "RelativeToolTip": "Front-End\\Front-End.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-16T12:30:59.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\WarehouseController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\WarehouseController.cs",
+              "RelativeToolTip": "BanHangDienMay\\Controllers\\WarehouseController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:18:57.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\Customer.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\Customer.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\Customer.cs",
+              "RelativeToolTip": "BanHangDienMay\\Controllers\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:12:27.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Front-End\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Front-End\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,59 +585,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "Front-End\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "Front-End\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAAAPEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-27T11:03:34.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\SanPham.cs",
-              "RelativeDocumentMoniker": "BanHangDienMay\\Models\\SanPham.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Models\\SanPham.cs",
-              "RelativeToolTip": "BanHangDienMay\\Models\\SanPham.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBcAAABMAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Models\\KhachHang.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Models\\KhachHang.cs",
+              "RelativeToolTip": "BanHangDienMay\\Models\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T04:04:42.391Z"
+              "WhenOpened": "2025-06-10T09:20:24.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\appsettings.json",
+              "RelativeDocumentMoniker": "BanHangDienMay\\appsettings.json",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\appsettings.json",
+              "RelativeToolTip": "BanHangDienMay\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T14:38:57.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "BanHangDienMay\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T09:03:14.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Front-End\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Front-End\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAKABAAAAAAAAAIBJwEgCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-27T11:03:20.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "BanHangDienMay.http",
-              "DocumentMoniker": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\BanHangDienMay.http",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\BanHangDienMay.http",
               "RelativeDocumentMoniker": "BanHangDienMay\\BanHangDienMay.http",
-              "ToolTip": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\BanHangDienMay\\BanHangDienMay.http",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\BanHangDienMay.http",
               "RelativeToolTip": "BanHangDienMay\\BanHangDienMay.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -508,10 +633,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BanHangDienMay\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\Test\\ASP.NET\\BanHangDienMay\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BanHangDienMay\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwGIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:27:50.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T08:28:52.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Front-End\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Front-End\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T17:46:25.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T16:51:46.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Front-End\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Front-End\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T16:51:28.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "jquery.js",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "Front-End\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-02T01:03:05.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Front-End\\wwwroot\\js\\site.js",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Front-End\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAAPEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-27T11:03:34.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\Test\\ASP.NET\\Front-End\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Front-End\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\Test\\ASP.NET\\Front-End\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Front-End\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKABAAAAAAAAAIBJwEgCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T11:03:20.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "BetatestContext.cs",
               "DocumentMoniker": "E:\\.NET\\BanHangDienMay\\BanHangDienMay\\Models\\BetatestContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\.NET\\BanHangDienMay\\BanHangDienMay\\Models\\BetatestContext.cs",
               "ToolTip": "E:\\.NET\\BanHangDienMay\\BanHangDienMay\\Models\\BetatestContext.cs",
+              "RelativeToolTip": "..\\..\\.NET\\BanHangDienMay\\BanHangDienMay\\Models\\BetatestContext.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:35:52.059Z"
             }

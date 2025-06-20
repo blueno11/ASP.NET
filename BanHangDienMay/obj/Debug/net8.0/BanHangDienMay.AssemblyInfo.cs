@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanHangDienMay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8afbd532a13ff19a5f9d911a3cd782caa80fa75f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanHangDienMay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanHangDienMay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

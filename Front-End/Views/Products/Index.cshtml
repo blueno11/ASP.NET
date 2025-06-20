@@ -4,56 +4,60 @@
     ViewData["Title"] = "Danh sách sản phẩm";
 }
 
-<div class="container-fluid">
-    <h2 style="font-weight: bold; color: blue;" class="my-4">Danh sách sản phẩm</h2>
-    <p>
+<div class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold text-primary">Danh sách sản phẩm</h2>
         <a href="@Url.Action("Create", "Products")" class="btn btn-primary">
             <i class="fas fa-plus"></i> Thêm sản phẩm
         </a>
-    </p>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Mã sản phẩm</th>
-                <th>Tên sản phẩm</th>
-                <th>Danh mục</th>
-                <th>Trạng thái</th>
-                <th>Số lượng</th>
-                <th>Số tháng bảo hành</th>
-                <th>Hành động</th>
-            </tr>
-        </thead>
-        <tbody id="productTable">
-            @if (Model != null && Model.Any())
-            {
-                foreach (var product in Model)
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle bg-white shadow-sm">
+            <thead class="table-primary">
+                <tr>
+                    <th>Mã sản phẩm</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Danh mục</th>
+                    <th>Trạng thái</th>
+                    <th>Số lượng</th>
+                    <th>Số tháng bảo hành</th>
+                    <th>Giá</th>
+                    <th class="text-center">Hành động</th>
+                </tr>
+            </thead>
+            <tbody id="productTable">
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.MaSanPham</td>
+                            <td>@product.TenSanPham</td>
+                            <td>@(product.MaDanhMucNavigation?.TenDanhMuc ?? "N/A")</td>
+                            <td>@product.TrangThai</td>
+                            <td>@product.SoLuong</td>
+                            <td>@product.SoThangBaoHanh</td>
+                            <td>@product.Gia.ToString("N0") VNĐ</td>
+                            <td class="text-center">
+                                <a href="@Url.Action("Edit", "Products", new { id = product.MaSanPham })" class="btn btn-warning btn-sm me-1">
+                                    <i class="fas fa-edit"></i> Sửa
+                                </a>
+                                <button class="btn btn-danger btn-sm delete-btn" data-id="@product.MaSanPham">
+                                    <i class="fas fa-trash"></i> Xóa
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
                 {
                     <tr>
-                        <td>@product.MaSanPham</td>
-                        <td>@product.TenSanPham</td>
-                        <td>@(product.MaDanhMucNavigation?.TenDanhMuc ?? "N/A")</td>
-                        <td>@product.TrangThai</td>
-                        <td>@product.SoLuong</td>
-                        <td>@product.SoThangBaoHanh</td>
-                        <td>
-                            <a href="@Url.Action("Edit", "Products", new { id = product.MaSanPham })" class="btn btn-warning btn-sm">
-                                <i class="fas fa-edit"></i> Sửa
-                            </a>
-                            <button class="btn btn-danger btn-sm delete-btn" data-id="@product.MaSanPham">
-                                <i class="fas fa-trash"></i> Xóa
-                            </button>
-                        </td>
+                        <td colspan="8" class="text-center">Không có sản phẩm nào.</td>
                     </tr>
                 }
-            }
-            else
-            {
-                <tr>
-                    <td colspan="7" class="text-center">Không có sản phẩm nào.</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 @section Scripts {
@@ -76,6 +80,7 @@
                                         <td>${product.trangThai}</td>
                                         <td>${product.soLuong}</td>
                                         <td>${product.soThangBaoHanh}</td>
+                                        <td>${product.gia ? product.gia.toLocaleString('vi-VN') + ' VNĐ' : 'N/A'}</td>
                                         <td>
                                             <a href="/Products/Edit/${product.maSanPham}" class="btn btn-warning btn-sm">
                                                 <i class="fas fa-edit"></i> Sửa

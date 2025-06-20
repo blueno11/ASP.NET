@@ -23,14 +23,37 @@ namespace BanHangDienMay.Controllers
         [HttpGet("List")]
         public async Task<ActionResult<IEnumerable<KhachHang>>> GetCustomers()
         {
-            return await _context.KhachHangs.ToListAsync();
+            var customers = await _context.KhachHangs
+                .Select(kh => new KhachHang
+                {
+                    MaKhachHang = kh.MaKhachHang,
+                    TenKhachHang = kh.TenKhachHang,
+                    SoDienThoai = kh.SoDienThoai,
+                    Email = kh.Email,
+                    DiaChi = kh.DiaChi,
+                    NgayTao = kh.NgayTao
+                })
+                .ToListAsync();
+
+            return customers;
         }
 
         // GET: api/customer/5
         [HttpGet("{id}")]
         public async Task<ActionResult<KhachHang>> GetCustomer(int id)
         {
-            var customer = await _context.KhachHangs.FindAsync(id);
+            var customer = await _context.KhachHangs
+                .Where(kh => kh.MaKhachHang == id)
+                .Select(kh => new KhachHang
+                {
+                    MaKhachHang = kh.MaKhachHang,
+                    TenKhachHang = kh.TenKhachHang,
+                    SoDienThoai = kh.SoDienThoai,
+                    Email = kh.Email,
+                    DiaChi = kh.DiaChi,
+                    NgayTao = kh.NgayTao
+                })
+                .FirstOrDefaultAsync();
 
             if (customer == null)
             {
@@ -63,7 +86,18 @@ namespace BanHangDienMay.Controllers
             _context.KhachHangs.Add(customer);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetCustomer), new { id = customer.MaKhachHang }, customer);
+            // Áp dụng Projection cho dữ liệu trả về
+            var createdCustomer = new KhachHang
+            {
+                MaKhachHang = customer.MaKhachHang,
+                TenKhachHang = customer.TenKhachHang,
+                SoDienThoai = customer.SoDienThoai,
+                Email = customer.Email,
+                DiaChi = customer.DiaChi,
+                NgayTao = customer.NgayTao
+            };
+
+            return CreatedAtAction(nameof(GetCustomer), new { id = createdCustomer.MaKhachHang }, createdCustomer);
         }
 
         // PUT: api/customer/Update/5
@@ -160,10 +194,11 @@ namespace BanHangDienMay.Controllers
                 .CountAsync();
 
             // Tính phần trăm tăng/giảm
-            var growthPercentage = newCustomersLastMonth == 0 
-                ? 100 
+            var growthPercentage = newCustomersLastMonth == 0
+                ? 100
                 : ((newCustomersThisMonth - newCustomersLastMonth) * 100.0 / newCustomersLastMonth);
 
+            // Áp dụng Projection cho dữ liệu trả về
             return new
             {
                 totalCustomers,

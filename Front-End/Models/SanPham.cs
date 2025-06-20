@@ -8,6 +8,9 @@
         public string TrangThai { get; set; } = "ConHang"; // Giá trị mặc định
         public int SoLuong { get; set; }
         public int SoThangBaoHanh { get; set; }
+        public decimal Gia { get; set; }
+
+        public string? Loai { get; set; } ///temp
         public CategoryDto? MaDanhMucNavigation { get; set; } // Nullable để tránh lỗi khi API trả về null
     }
 }

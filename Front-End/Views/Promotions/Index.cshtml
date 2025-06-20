@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Quản lý khuyến mãi";
+}
+
+<h2>Quản lý khuyến mãi</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tạo khuyến mãi mới</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Mã khuyến mãi</th>
+            <th>Tên khuyến mãi</th>
+            <th>Mô tả</th>
+            <th>Phần trăm giảm</th>
+            <th>Ngày bắt đầu</th>
+            <th>Ngày kết thúc</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody id="promotionTableBody">
+        <!-- Dữ liệu sẽ được điền bởi JavaScript -->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            loadPromotions();
+
+            function loadPromotions() {
+                $.ajax({
+                    url: 'https://localhost:7156/api/promotions/List',
+                    type: 'GET',
+                    success: function (data) {
+                        let rows = '';
+                        data.forEach(function (promotion) {
+                            rows += `
+                                <tr>
+                                    <td>${promotion.maKhuyenMai}</td>
+                                    <td>${promotion.tenKhuyenMai}</td>
+                                    <td>${promotion.moTa || 'N/A'}</td>
+                                    <td>${promotion.phanTramGiam}%</td>
+                                    <td>${promotion.ngayBatDau}</td>
+                                    <td>${promotion.ngayKetThuc}</td>
+                                    <td>
+                                        <a href="/Promotions/Edit/${promotion.maKhuyenMai}" class="btn btn-warning btn-sm">Sửa</a>
+                                        <button class="btn btn-danger btn-sm" onclick="deletePromotion(${promotion.maKhuyenMai})">Xóa</button>
+                                        <button class="btn btn-secondary btn-sm" onclick="endPromotion(${promotion.maKhuyenMai})">Kết thúc</button>
+                                    </td>
+                                </tr>`;
+                        });
+                        $('#promotionTableBody').html(rows);
+                    },
+                    error: function (xhr) {
+                        alert('Lỗi khi tải danh sách khuyến mãi: ' + xhr.responseText);
+                    }
+                });
+            }
+
+            window.deletePromotion = function (id) {
+                if (confirm('Bạn có chắc muốn xóa khuyến mãi này?')) {
+                    $.ajax({
+                        url: 'https://localhost:7156/api/promotions/Delete/' + id,
+                        type: 'DELETE',
+                        success: function () {
+                            alert('Xóa khuyến mãi thành công!');
+                            loadPromotions();
+                        },
+                        error: function (xhr) {
+                            alert('Lỗi khi xóa khuyến mãi: ' + xhr.responseText);
+                        }
+                    });
+                }
+            }
+
+            window.endPromotion = function (id) {
+                if (confirm('Bạn có chắc muốn kết thúc khuyến mãi này?')) {
+                    $.ajax({
+                        url: 'https://localhost:7156/api/promotions/End/' + id,
+                        type: 'PUT',
+                        success: function () {
+                            alert('Kết thúc khuyến mãi thành công!');
+                            loadPromotions();
+                        },
+                        error: function (xhr) {
+                            alert('Lỗi khi kết thúc khuyến mãi: ' + xhr.responseText);
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+}

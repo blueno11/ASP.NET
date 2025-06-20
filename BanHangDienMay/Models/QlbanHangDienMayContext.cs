@@ -215,6 +215,9 @@ public partial class QlbanHangDienMayContext : DbContext
 
             entity.Property(e => e.MaSanPham).HasColumnName("ma_san_pham");
             entity.Property(e => e.MaDanhMuc).HasColumnName("ma_danh_muc");
+            entity.Property(e => e.Gia)
+                 .HasColumnType("decimal(18,2)")
+                .HasColumnName("gia");
             entity.Property(e => e.SoLuong).HasColumnName("so_luong");
             entity.Property(e => e.SoThangBaoHanh)
                 .HasDefaultValue(0)

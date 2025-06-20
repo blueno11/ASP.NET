@@ -17,6 +17,8 @@ public partial class SanPham
 
     public int SoLuong { get; set; }
 
+    public decimal Gia { get; set; }
+
     public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
 
     public virtual DanhMucSanPham? MaDanhMucNavigation { get; set; }

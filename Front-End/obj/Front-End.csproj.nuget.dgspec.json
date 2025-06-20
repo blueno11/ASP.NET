@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Front-End.csproj": {}
+    "E:\\Test\\ASP.NET\\Front-End\\Front-End.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Front-End.csproj": {
+    "E:\\Test\\ASP.NET\\Front-End\\Front-End.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Front-End.csproj",
+        "projectUniqueName": "E:\\Test\\ASP.NET\\Front-End\\Front-End.csproj",
         "projectName": "Front-End",
-        "projectPath": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\Front-End.csproj",
+        "projectPath": "E:\\Test\\ASP.NET\\Front-End\\Front-End.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thang\\Documents\\Zalo Received Files\\ASP.NET-main (2)\\ASP.NET-main\\Front-End\\obj\\",
+        "outputPath": "E:\\Test\\ASP.NET\\Front-End\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
