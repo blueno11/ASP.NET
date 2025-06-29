@@ -28,25 +28,27 @@ namespace BanHangDienMay.Controllers
                 endDate = endDate ?? DateTime.Now;
                 startDate = startDate ?? endDate.Value.AddDays(-30);
 
-                // Convert DateTime to DateOnly
-                var startDateOnly = DateOnly.FromDateTime(startDate.Value);
-                var endDateOnly = DateOnly.FromDateTime(endDate.Value);
+                // Làm sạch thời gian để dễ so sánh
+                var startDateTime = startDate.Value.Date; // 00:00:00
+                var endDateTime = endDate.Value.Date.AddDays(1).AddTicks(-1); // 23:59:59.999...
 
                 var customerCount = await _context.KhachHangs
                     .Where(k => k.MaKhachHang > 0)
                     .CountAsync();
 
                 var invoiceCount = await _context.HoaDons
-                    .Where(h => h.NgayDat >= startDateOnly && h.NgayDat <= endDateOnly)
+                    .Where(h => h.NgayDat >= startDateTime && h.NgayDat <= endDateTime)
                     .CountAsync();
 
                 var totalRevenue = await _context.HoaDons
-                    .Where(h => h.NgayDat >= startDateOnly && h.NgayDat <= endDateOnly)
+                    .Where(h => h.NgayDat >= startDateTime && h.NgayDat <= endDateTime)
                     .SumAsync(h => (decimal?)h.TongTien ?? 0);
 
+                var productCount = await _context.SanPhams.CountAsync();
+
                 var dailyRevenue = await _context.HoaDons
-                    .Where(h => h.NgayDat >= startDateOnly && h.NgayDat <= endDateOnly)
-                    .GroupBy(h => h.NgayDat)
+                    .Where(h => h.NgayDat >= startDateTime && h.NgayDat <= endDateTime)
+                    .GroupBy(h => h.NgayDat.Date)
                     .Select(g => new
                     {
                         Date = g.Key,
@@ -60,6 +62,7 @@ namespace BanHangDienMay.Controllers
                     CustomerCount = customerCount,
                     InvoiceCount = invoiceCount,
                     TotalRevenue = totalRevenue,
+                    ProductCount = productCount,
                     DailyRevenue = dailyRevenue
                 };
             }

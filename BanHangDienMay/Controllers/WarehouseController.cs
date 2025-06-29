@@ -47,6 +47,9 @@ namespace BanHangDienMay.ApiControllers
                     if (sanPham != null)
                     {
                         sanPham.SoLuong += item.Value;
+                        if (sanPham.SoLuong != 0) sanPham.TrangThai = "ConHang";
+                        if (sanPham.SoLuong < 0) sanPham.SoLuong = 0;
+                        if (sanPham.SoLuong == 0) sanPham.TrangThai = "HetHang";
                     }
                 }
                 await _context.SaveChangesAsync();

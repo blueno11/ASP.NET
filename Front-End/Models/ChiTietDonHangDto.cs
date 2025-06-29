@@ -7,7 +7,7 @@
         public int? MaHoaDon { get; set; }
 
         public int MaSanPham { get;set; }
-        public string TenSanPham { get; set; } = string.Empty;
+        public string TenSanPham { get; set; }
 
         public decimal GiaBan { get; set; }
 

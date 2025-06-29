@@ -9,5 +9,7 @@
 
         public List<GioHangItem> GioHang { get; set; } = new();
         public List<KhuyenMai> DanhSachKhuyenMai { get; set; } = new();
+
+        public List<KhachHang> DanhSachKhachHang { get; set; } = new();
     }
 }

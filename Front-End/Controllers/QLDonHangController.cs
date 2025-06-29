@@ -3,7 +3,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Text.Json;
 using System.Collections.Generic;
-using Front_End.Models; // <-- Thêm dòng này
+using Front_End.Models;
+using System.Text;
 namespace Front_End.Controllers
 {
     public class QLDonHangController : Controller
@@ -17,6 +18,7 @@ namespace Front_End.Controllers
 
         [HttpGet]
         public async Task<IActionResult> Index(
+
            DateTime? fromDate,
            DateTime? toDate,
            decimal? minTotal,
@@ -28,6 +30,10 @@ namespace Front_End.Controllers
            int page = 1,
            int pageSize = 10)
         {
+            if(HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index","Login");
+            }
             var client = _httpClientFactory.CreateClient("BanHangDienMayAPI");
             var response = await client.GetAsync("https://localhost:7156/api/QLDonHang");
 
@@ -53,14 +59,8 @@ namespace Front_End.Controllers
             if (maxTotal.HasValue)
                 hoaDons = hoaDons.Where(h => h.tong_tien <= maxTotal.Value).ToList();
 
-            if (!string.IsNullOrWhiteSpace(maKH))
-                hoaDons = hoaDons.Where(h => h.ma_khach_hang.ToString().Contains(maKH, StringComparison.OrdinalIgnoreCase) == true).ToList(); // Dùng Contains với StringComparison để linh hoạt hơn
-
-            if (!string.IsNullOrWhiteSpace(maND))
-                hoaDons = hoaDons.Where(h => h.ma_nguoi_dung.ToString().Contains(maND, StringComparison.OrdinalIgnoreCase) == true).ToList(); // Dùng Contains với StringComparison để linh hoạt hơn
-
             //Phần sắp xếp
-            switch (sortBy?.ToLower()) 
+            switch (sortBy?.ToLower())
             {
                 case "ngay_dat":
                     hoaDons = (sortOrder == "asc")
@@ -110,30 +110,54 @@ namespace Front_End.Controllers
         [HttpGet]
         public async Task<IActionResult> Create(int? loai, string? tuKhoa)
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var client = _httpClientFactory.CreateClient("BanHangDienMayAPI");
             var viewModel = new GioHangViewModel
             {
                 DanhSachLoai = new(),
                 DanhSachSanPham = new(),
                 LoaiDuocChon = loai,
+                DanhSachKhuyenMai = new(),
                 TuKhoa = tuKhoa,
                 GioHang = HttpContext.Session.GetObject<List<GioHangItem>>("GioHang") ?? new List<GioHangItem>()
             };
 
+            //Lấy danh sách Loại hàng
             var response = await client.GetAsync("https://localhost:7156/api/Categories/List");
             if (response.IsSuccessStatusCode)
             {
                 var data = await response.Content.ReadAsStringAsync();
                 viewModel.DanhSachLoai = JsonSerializer.Deserialize<List<CategoryDto>>(data, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
             }
-
+            //Lấy danh sách sản phẩm
             response = await client.GetAsync("https://localhost:7156/api/Products/List");
             if (response.IsSuccessStatusCode)
             {
                 var data = await response.Content.ReadAsStringAsync();
-                viewModel.DanhSachSanPham = JsonSerializer.Deserialize<List<SanPham>>(data, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
+                var danhSachSanPham = JsonSerializer.Deserialize<List<SanPham>>(data, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
+                viewModel.DanhSachSanPham = danhSachSanPham.Where(p => p.TrangThai == "ConHang").ToList();
+            }
+            //Lấy danh sách khuyến mãi
+            response = await client.GetAsync("https://localhost:7156/api/Promotions/List");
+            if (response.IsSuccessStatusCode)
+            {
+                var data = await response.Content.ReadAsStringAsync();
+                viewModel.DanhSachKhuyenMai = JsonSerializer.Deserialize<List<KhuyenMai>>(data, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
+            }
+            //Lấy danh sách khách hàng
+            response = await client.GetAsync("https://localhost:7156/api/Customer/List");
+            
+            if (response.IsSuccessStatusCode)
+            {
+                var data = await response.Content.ReadAsStringAsync();
+                viewModel.DanhSachKhachHang = JsonSerializer.Deserialize<List<KhachHang>>(data, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
             }
 
+
+            //lọc
             if (loai.HasValue)
                 viewModel.DanhSachSanPham = viewModel.DanhSachSanPham.Where(p => p.MaDanhMuc == loai).ToList();
             if (!string.IsNullOrWhiteSpace(tuKhoa))
@@ -148,7 +172,7 @@ namespace Front_End.Controllers
             var gioHang = HttpContext.Session.GetObject<List<GioHangItem>>("GioHang") ?? new List<GioHangItem>();
 
             var client = _httpClientFactory.CreateClient("BanHangDienMayAPI");
-            var response = await client.GetAsync($"https://localhost:7156/api/Products/"+maSanPham);
+            var response = await client.GetAsync($"https://localhost:7156/api/Products/" + maSanPham);
             if (!response.IsSuccessStatusCode) return RedirectToAction("Create");
 
             var data = await response.Content.ReadAsStringAsync();
@@ -197,8 +221,20 @@ namespace Front_End.Controllers
         [HttpGet]
         public async Task<IActionResult> ChiTietDonHang(int id)
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+            Console.WriteLine("ChiTietHoaDon dang chạy");
             var client = _httpClientFactory.CreateClient("BanHangDienMayAPI");
 
+
+            //lấy chi tiết hóa đơn
             var response = await client.GetAsync($"https://localhost:7156/api/QLDonHang/ChiTietDonHang/{id}");
             if (!response.IsSuccessStatusCode)
                 return NotFound();
@@ -214,35 +250,62 @@ namespace Front_End.Controllers
                 MaHoaDon = id,
                 ChiTietDonHangs = chiTietList ?? new List<ChiTietDonHangDto>()
             };
-            Console.WriteLine(model.ChiTietDonHangs);
+
+            //lấy hóa đơn
+            response = await client.GetAsync($"https://localhost:7156/api/QLDonHang/" + model.MaHoaDon);
+            if (!response.IsSuccessStatusCode)
+                return NotFound();
+            json = await response.Content.ReadAsStringAsync();
+            var hoaDon = JsonSerializer.Deserialize<HoaDonDto>(json, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+            if (hoaDon != null) model.TongTien = hoaDon.tong_tien;
+            
+            model.khachHang = hoaDon.MaKhachHangNavigation;
+            //lấy khuyến mãi
+            if (hoaDon.ma_khuyen_mai != null)
+            {
+                response = await client.GetAsync($"https://localhost:7156/api/promotions/{hoaDon.ma_khuyen_mai}");
+                if (response.IsSuccessStatusCode)
+                {
+                    json = await response.Content.ReadAsStringAsync();
+                    var khuyenMai = JsonSerializer.Deserialize<KhuyenMai>(json, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+
+                    if (khuyenMai != null)
+                    {
+                        model.TenKhuyenMai = khuyenMai.TenKhuyenMai;
+                        model.PhanTramGiam = khuyenMai.PhanTramGiam;
+                    }
+                }
+            }
             return View(model);
         }
 
-        public async Task<IActionResult> ThanhToan()
+        public async Task<IActionResult> ThanhToan(int tongTienSauGiam, int maKhuyenMai, int maKhachHang)
         {
             var gioHang = HttpContext.Session.GetObject<List<GioHangItem>>("GioHang");
             var client = _httpClientFactory.CreateClient("BanHangDienMayAPI");
 
             // Lấy mã người dùng từ session
             int? maNguoiDung = HttpContext.Session.GetInt32("MaNguoiDung");
-            if (maNguoiDung == null)
-            {
-                TempData["SuccessMessage"] = "Bạn cần đăng nhập để thanh toán.";
-                return RedirectToAction("Create");
-            }
 
             var hoadon = new HoaDonDto
             {
-                ma_khach_hang = 3, // demo
-                ma_nguoi_dung = maNguoiDung.Value, // Lấy từ session
+                ma_khach_hang = maKhachHang, // demo
+                ma_nguoi_dung = maNguoiDung, // Lấy từ session
                 ngay_dat = DateTime.Now,
-                tong_tien = gioHang?.Sum(p => p.ThanhTien) ?? 0,
+                ma_khuyen_mai = maKhuyenMai,
+                tong_tien = tongTienSauGiam
             };
-
+            Console.WriteLine(tongTienSauGiam);
             var response = await client.PostAsJsonAsync("https://localhost:7156/api/QLDonHang/Add", hoadon);
             if (!response.IsSuccessStatusCode)
             {
-                TempData["SuccessMessage"] = "Tạo hóa đơn thất bại 1.";
+                TempData["SuccessMessage"] = response.Content.ReadAsStringAsync();
                 return RedirectToAction("Create");
             }
             var json = await response.Content.ReadAsStringAsync();
@@ -265,11 +328,17 @@ namespace Front_End.Controllers
             if (responseChiTiet.IsSuccessStatusCode)
             {
                 TempData["SuccessMessage"] = "Thêm hóa đơn thành công!";
+                int diemTang = (int)(tongTienSauGiam * 0.0003);
+                var request = new
+                {
+                    DiemTang = diemTang,
+                    MaKhachHang = maKhachHang
+                };
+
+                await client.PostAsJsonAsync("https://localhost:7156/api/QLDonHang/tangDiem", request);
                 HttpContext.Session.Remove("GioHang"); // Xoá giỏ hàng
                 return RedirectToAction("Create");
             }
-
-            TempData["SuccessMessage"] = "Có lỗi xảy ra khi thêm chi tiết hóa đơn." + maHoaDonMoi;
             return RedirectToAction("Create");
         }
 

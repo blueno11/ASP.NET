@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Test\\ASP.NET\\BanHangDienMay\\BanHangDienMay.csproj": {}
+    "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\BanHangDienMay.csproj": {}
   },
   "projects": {
-    "E:\\Test\\ASP.NET\\BanHangDienMay\\BanHangDienMay.csproj": {
+    "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\BanHangDienMay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Test\\ASP.NET\\BanHangDienMay\\BanHangDienMay.csproj",
+        "projectUniqueName": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\BanHangDienMay.csproj",
         "projectName": "BanHangDienMay",
-        "projectPath": "E:\\Test\\ASP.NET\\BanHangDienMay\\BanHangDienMay.csproj",
+        "projectPath": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\BanHangDienMay.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "E:\\Test\\ASP.NET\\BanHangDienMay\\obj\\",
+        "outputPath": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

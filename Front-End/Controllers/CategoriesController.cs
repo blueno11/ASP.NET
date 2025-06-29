@@ -16,17 +16,35 @@ namespace Front_End.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.Session.GetString("VaiTro") != "Admin")
+            {
+                if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+                    return RedirectToAction("Index", "Login");
+                else return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
         public IActionResult Create()
         {
+            if (HttpContext.Session.GetString("VaiTro") != "Admin")
+            {
+                if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+                    return RedirectToAction("Index", "Login");
+                else return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
+            if (HttpContext.Session.GetString("VaiTro") != "Admin")
+            {
+                if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+                    return RedirectToAction("Index", "Login");
+                else return RedirectToAction("Index", "Home");
+            }
             var client = _clientFactory.CreateClient("BanHangDienMayAPI");
             try
             {
@@ -51,5 +69,6 @@ namespace Front_End.Controllers
                 return StatusCode(500, $"Lỗi kết nối đến backend: {ex.Message}");
             }
         }
+
     }
 }

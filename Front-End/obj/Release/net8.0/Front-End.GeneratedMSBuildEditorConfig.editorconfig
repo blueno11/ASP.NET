@@ -9,57 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Front_End
 build_property.RootNamespace = Front_End
-build_property.ProjectDir = D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\Front-End\
+build_property.ProjectDir = D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\Front-End
+build_property.MSBuildProjectDirectory = D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Home/Index.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Home/Privacy.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Orders/Index.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Products/Index.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Shared/Error.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Shared/_Header.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Shared/_Sidebar.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/_ViewImports.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/_ViewStart.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CongNghe.Net/ASP.NET-main (1)/ASP.NET-main/Front-End/Views/Shared/_Layout.cshtml]
+[D:/Study/.Net/ASP.NET-main (2)/ASP.NET-main/Front-End/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wv6syv1k5u

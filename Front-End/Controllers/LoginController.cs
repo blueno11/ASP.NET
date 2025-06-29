@@ -45,6 +45,12 @@ namespace Front_End.Controllers
             }
         }
 
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Login");
+        }
+
         // Thêm class phụ trợ
         private class UserInfo
         {

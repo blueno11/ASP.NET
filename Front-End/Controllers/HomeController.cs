@@ -15,11 +15,20 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        int? maNguoiDung = HttpContext.Session.GetInt32("MaNguoiDung");
+        if (!maNguoiDung.HasValue)
+        {
+           return RedirectToAction("Index","Login");
+        }
         return View();
     }
 
     public IActionResult Privacy()
     {
+        if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+        {
+            return RedirectToAction("Index", "Login");
+        }
         return View();
     }
 

@@ -3,14 +3,26 @@
     public class SanPham
     {
         public int MaSanPham { get; set; }
+
         public int MaDanhMuc { get; set; }
-        public string TenSanPham { get; set; } = string.Empty; // Giá trị mặc định
-        public string TrangThai { get; set; } = "ConHang"; // Giá trị mặc định
+
+        public string TenSanPham { get; set; } = string.Empty;
+
+        public string TrangThai { get; set; } = "ConHang";
+
         public int SoLuong { get; set; }
+
         public int SoThangBaoHanh { get; set; }
+
         public decimal Gia { get; set; }
 
-        public string? Loai { get; set; } ///temp
-        public CategoryDto? MaDanhMucNavigation { get; set; } // Nullable để tránh lỗi khi API trả về null
+        public string? Loai { get; set; } // Tạm giữ đúng tên như bạn đã có
+
+        public CategoryDto? MaDanhMucNavigation { get; set; }
+
+        /// <summary>
+        /// Đường dẫn hoặc tên file ảnh sản phẩm
+        /// </summary>
+        public string? LinkHinhAnh { get; set; }
     }
 }

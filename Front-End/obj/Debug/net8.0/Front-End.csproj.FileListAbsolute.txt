@@ -66,107 +66,129 @@ D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\Front-End\obj\Debug\net8.0\refint\
 D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
 D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
 D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.endpoints.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.exe
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.deps.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.pdb
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\refint\Front-End.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll
-E:\ASP.NET\Front-End\bin\Debug\net8.0\appsettings.Development.json
-E:\ASP.NET\Front-End\bin\Debug\net8.0\appsettings.json
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.endpoints.json
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.exe
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.deps.json
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.dll
-E:\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.pdb
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.sourcelink.json
-E:\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-E:\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
-E:\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.build.json
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.development.json
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
-E:\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.dll
-E:\ASP.NET\Front-End\obj\Debug\net8.0\refint\Front-End.dll
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.pdb
-E:\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
-E:\ASP.NET\Front-End\obj\Debug\net8.0\ref\Front-End.dll
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\appsettings.Development.json
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\appsettings.json
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.endpoints.json
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.exe
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.deps.json
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.dll
-E:\Test\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.pdb
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.sourcelink.json
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.build.json
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.development.json
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.dll
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\refint\Front-End.dll
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.pdb
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
-E:\Test\ASP.NET\Front-End\obj\Debug\net8.0\ref\Front-End.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.Development.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.exe
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.deps.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.pdb
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.development.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\refint\Front-End.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.Development.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.exe
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.deps.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.pdb
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.development.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\refint\Front-End.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.Development.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.exe
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.deps.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.pdb
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.sourcelink.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.development.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\refint\Front-End.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.Development.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\appsettings.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.endpoints.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.exe
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.deps.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\bin\Debug\net8.0\Front-End.pdb
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.sourcelink.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.development.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\refint\Front-End.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll

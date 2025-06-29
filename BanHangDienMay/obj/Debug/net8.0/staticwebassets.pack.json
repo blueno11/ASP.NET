@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "PackagePath": "staticwebassets\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "PackagePath": "staticwebassets\\uploads\\7j3EHb.png"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "PackagePath": "staticwebassets\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\download.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "PackagePath": "staticwebassets\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "PackagePath": "staticwebassets\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "PackagePath": "staticwebassets\\uploads\\maysay.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "PackagePath": "staticwebassets\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "PackagePath": "staticwebassets\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg"
+    },
+    {
+      "Id": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "PackagePath": "staticwebassets\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BanHangDienMay.props",
+      "PackagePath": "build\\BanHangDienMay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BanHangDienMay.props",
+      "PackagePath": "buildMultiTargeting\\BanHangDienMay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BanHangDienMay.props",
+      "PackagePath": "buildTransitive\\BanHangDienMay.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

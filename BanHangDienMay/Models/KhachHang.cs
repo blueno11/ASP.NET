@@ -15,7 +15,8 @@ public partial class KhachHang
 
     public string? DiaChi { get; set; }
 
-    public DateTime NgayTao { get; set; }
+    public int diemThuong { get; set; }
+    public DateTime? NgayTao { get; set; }
 
 
     public virtual ICollection<HoaDon> HoaDons { get; set; } = new List<HoaDon>();

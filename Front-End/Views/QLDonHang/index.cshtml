@@ -4,13 +4,8 @@
     ViewData["Title"] = "Quản lý Hóa đơn";
     int currentPage = ViewBag.CurrentPage ?? 1;
     int totalPages = ViewBag.TotalPages ?? 1;
-
-    // Lấy thông tin sắp xếp hiện tại từ ViewBag
     var currentSortBy = ViewBag.CurrentSortBy as string;
     var currentSortOrder = ViewBag.CurrentSortOrder as string;
-
-    // Lấy các tham số lọc hiện tại từ ViewBag để truyền lại vào các link sắp xếp và phân trang
-    // Đảm bảo các tham số này cũng được truyền từ Controller sang ViewBag
     var fromDate = ViewBag.FromDate;
     var toDate = ViewBag.ToDate;
     var minTotal = ViewBag.MinTotal;
@@ -19,151 +14,132 @@
     var maND = ViewBag.MaND;
 }
 
-<h2>Quản lý Hóa đơn</h2>
-<p>
-    <a href="@Url.Action("Create", "QLDonHang")" class="btn btn-primary">
-        <i class="fas fa-plus"></i> TẠO HÓA ĐƠN
+<h2 class="mb-4 text-primary"><i class="fas fa-file-invoice-dollar"></i> Quản lý Hóa đơn</h2>
+
+<div class="mb-3">
+    <a href="@Url.Action("Create", "QLDonHang")" class="btn btn-success">
+        <i class="fas fa-plus"></i> Tạo Hóa Đơn
     </a>
-</p>
-<form asp-action="Index" method="get" class="row g-3 mb-4">
-    <div class="col-md-3">
-        <label for="fromDate" class="form-label">Từ ngày:</label>
-        <input type="date" class="form-control" name="fromDate" value="@(fromDate?.ToString("yyyy-MM-dd"))" />
+</div>
+
+<form asp-action="Index" method="get" class="row g-2 mb-4">
+    <div class="col-md-2">
+        <input type="date" class="form-control" name="fromDate" value="@(fromDate?.ToString("yyyy-MM-dd"))" placeholder="Từ ngày" />
     </div>
-    <div class="col-md-3">
-        <label for="toDate" class="form-label">Đến ngày:</label>
-        <input type="date" class="form-control" name="toDate" value="@(toDate?.ToString("yyyy-MM-dd"))" />
+    <div class="col-md-2">
+        <input type="date" class="form-control" name="toDate" value="@(toDate?.ToString("yyyy-MM-dd"))" placeholder="Đến ngày" />
     </div>
-    <div class="col-md-3">
-        <label for="minTotal" class="form-label">Tổng tiền từ:</label>
-        <input type="number" class="form-control" name="minTotal" value="@minTotal" />
+    <div class="col-md-2">
+        <input type="number" class="form-control" name="minTotal" value="@minTotal" placeholder="Tổng tiền từ" />
     </div>
-    <div class="col-md-3">
-        <label for="maxTotal" class="form-label">Tổng tiền đến:</label>
-        <input type="number" class="form-control" name="maxTotal" value="@maxTotal" />
+    <div class="col-md-2">
+        <input type="number" class="form-control" name="maxTotal" value="@maxTotal" placeholder="Tổng tiền đến" />
     </div>
-    <div class="col-md-3">
-        <label for="maKH" class="form-label">Mã khách hàng:</label>
-        <input type="text" class="form-control" name="maKH" value="@maKH" />
-    </div>
-    <div class="col-md-3">
-        <label for="maND" class="form-label">Mã người dùng:</label>
-        <input type="text" class="form-control" name="maND" value="@maND" />
-    </div>
-    <div class="col-md-3 align-self-end">
-        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-primary w-100"><i class="fas fa-search"></i> Tìm</button>
     </div>
 </form>
 
-<table class="table table-bordered table-striped">
-    <thead>
+<table class="table table-bordered table-striped table-hover shadow-sm rounded bg-white">
+    <thead class="table-primary text-center">
         <tr>
-            <th>Mã Hóa Đơn</th>
-            <th>Mã Khách Hàng</th>
-            <th>
+            <th scope="col">Mã HĐ</th>
+            <th scope="col">
                 <a asp-action="Index"
                    asp-route-sortBy="ngay_dat"
                    asp-route-sortOrder="@(currentSortBy == "ngay_dat" && currentSortOrder == "asc" ? "desc" : "asc")"
                    asp-route-page="@currentPage"
                    asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
                    asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
-                   asp-route-maKH="@maKH" asp-route-maND="@maND">
+                   asp-route-maKH="@maKH" asp-route-maND="@maND"
+                   class="text-decoration-none text-dark">
                     Ngày Đặt
                     @if (currentSortBy == "ngay_dat")
                     {
-                        <i class="fa @(currentSortOrder == "asc" ? "fa-sort-asc" : "fa-sort-desc")"></i>
+                        <i class="fas @(currentSortOrder == "asc" ? "fa-sort-up" : "fa-sort-down") ms-1"></i>
                     }
                 </a>
             </th>
-            <th>
+            <th scope="col">
                 <a asp-action="Index"
                    asp-route-sortBy="tong_tien"
                    asp-route-sortOrder="@(currentSortBy == "tong_tien" && currentSortOrder == "asc" ? "desc" : "asc")"
                    asp-route-page="@currentPage"
                    asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
                    asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
-                   asp-route-maKH="@maKH" asp-route-maND="@maND">
+                   asp-route-maKH="@maKH" asp-route-maND="@maND"
+                   class="text-decoration-none text-dark">
                     Tổng Tiền
                     @if (currentSortBy == "tong_tien")
                     {
-                        <i class="fa @(currentSortOrder == "asc" ? "fa-sort-asc" : "fa-sort-desc")"></i>
+                        <i class="fas @(currentSortOrder == "asc" ? "fa-sort-up" : "fa-sort-down") ms-1"></i>
                     }
                 </a>
             </th>
-            <th>Mã Khuyến Mãi</th>
-            <th>Mã Người Dùng</th>
-            <th>Chi tiết</th>
+            <th scope="col">Chi tiết</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var hd in Model)
         {
-            <tr>
-                <td>@hd.ma_hoa_don</td>
-                <td>@hd.ma_khach_hang</td>
-                <td>@hd.ngay_dat.ToString("dd/MM/yyyy")</td>
-                <td>@hd.tong_tien.ToString("N0") đ</td>
-                <td>@hd.ma_khuyen_mai</td>
-                <td>@hd.ma_nguoi_dung</td>
-                <td><a asp-action="ChiTietDonHang" asp-route-id="@hd.ma_hoa_don" class="btn btn-info">Xem chi tiết</a></td>
+            <tr class="align-middle">
+                <td class="text-center fw-bold">@hd.ma_hoa_don</td>
+                <td class="text-center">@hd.ngay_dat.ToString("dd/MM/yyyy")</td>
+                <td class="text-end text-success fw-semibold">@hd.tong_tien.ToString("N0") đ</td>
+                <td class="text-center">
+                    <a asp-action="ChiTietDonHang" asp-route-id="@hd.ma_hoa_don" class="btn btn-sm btn-outline-info rounded-pill">
+                        <i class="fas fa-eye"></i> Xem
+                    </a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center">
-
-        <li class="page-item @(currentPage == 1 ? "disabled" : "")">
-            <a class="page-link" asp-action="Index"
-               asp-route-page="@(currentPage - 1)"
-               asp-route-sortBy="@currentSortBy"
-               asp-route-sortOrder="@currentSortOrder"
-               asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
-               asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
-               asp-route-maKH="@maKH" asp-route-maND="@maND"
-               tabindex="-1">Previous</a>
-        </li>
-
-        @for (int i = 1; i <= totalPages; i++)
-        {
-            <li class="page-item @(i == currentPage ? "active" : "")">
+@if (totalPages > 1)
+{
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(currentPage == 1 ? "disabled" : "")">
                 <a class="page-link" asp-action="Index"
-                   asp-route-page="@i"
+                   asp-route-page="@(currentPage - 1)"
                    asp-route-sortBy="@currentSortBy"
                    asp-route-sortOrder="@currentSortOrder"
                    asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
                    asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
                    asp-route-maKH="@maKH" asp-route-maND="@maND">
-                    @i
+                    <i class="fas fa-chevron-left"></i>
                 </a>
             </li>
-        }
-
-        <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
-            <a class="page-link" asp-action="Index"
-               asp-route-page="@(currentPage + 1)"
-               asp-route-sortBy="@currentSortBy"
-               asp-route-sortOrder="@currentSortOrder"
-               asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
-               asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
-               asp-route-maKH="@maKH" asp-route-maND="@maND">Next</a>
-        </li>
-    </ul>
-</nav>
-
+            @for (int i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(i == currentPage ? "active" : "")">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-page="@i"
+                       asp-route-sortBy="@currentSortBy"
+                       asp-route-sortOrder="@currentSortOrder"
+                       asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
+                       asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
+                       asp-route-maKH="@maKH" asp-route-maND="@maND">
+                        @i
+                    </a>
+                </li>
+            }
+            <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
+                <a class="page-link" asp-action="Index"
+                   asp-route-page="@(currentPage + 1)"
+                   asp-route-sortBy="@currentSortBy"
+                   asp-route-sortOrder="@currentSortOrder"
+                   asp-route-fromDate="@(fromDate?.ToString("yyyy-MM-dd"))" asp-route-toDate="@(toDate?.ToString("yyyy-MM-dd"))"
+                   asp-route-minTotal="@minTotal" asp-route-maxTotal="@maxTotal"
+                   asp-route-maKH="@maKH" asp-route-maND="@maND">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+}
 
 @section Scripts {
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script>
-        // Optional: JavaScript để giữ giá trị của input type="date" sau khi refresh trang
-        // (nếu dùng Context.Request.Query["name"] thì không cần quá lo lắng)
-        document.addEventListener('DOMContentLoaded', function () {
-            const fromDateInput = document.querySelector('input[name="fromDate"]');
-            if (fromDateInput && fromDateInput.value) {
-                // Ensure date format is correct for input type="date"
-                // No special handling needed here if value is already "yyyy-MM-dd"
-            }
-        });
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 }

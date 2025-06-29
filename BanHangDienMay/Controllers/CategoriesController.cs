@@ -96,4 +96,4 @@ using System.Threading.Tasks;
     }
 }
 
-public class CategoryDto { public int MaDanhMuc { get; set; } public string? TenDanhMuc { get; set; } }
+public class CategoryDto { public int MaDanhMuc { get; set; } public string TenDanhMuc { get; set; } }

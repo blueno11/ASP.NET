@@ -514,521 +514,683 @@ D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\re
 D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
 D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
 D:\CongNghe.Net\ASP.NET-main (1)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.staticwebassets.endpoints.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
-C:\Users\thang\Documents\Zalo Received Files\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\appsettings.json
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.staticwebassets.endpoints.json
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-E:\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.sourcelink.json
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
-E:\ASP.NET\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\appsettings.json
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.staticwebassets.endpoints.json
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-E:\Test\ASP.NET\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.sourcelink.json
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
-E:\Test\ASP.NET\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
+D:\Study\.Net\ASP.NET-main (2)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
+D:\Study\.Net\cuoiKy.Net\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.sourcelink.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll
+D:\Study\.Net\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.staticwebassets.runtime.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.Development.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\appsettings.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.staticwebassets.runtime.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.staticwebassets.endpoints.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.exe
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.deps.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.runtimeconfig.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\BanHangDienMay.pdb
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Core.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Azure.Identity.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Humanizer.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.ClientModel.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.CodeDom.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Memory.Data.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Text.Json.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.AssemblyReference.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfoInputs.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.AssemblyInfo.cs
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.csproj.CoreCompileInputs.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cs
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.MvcApplicationPartsAssemblyInfo.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.sourcelink.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\scopedcss\bundle\BanHangDienMay.styles.css
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.development.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssets.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.BanHangDienMay.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.build.BanHangDienMay.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BanHangDienMay.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BanHangDienMay.props
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.pack.json
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangD.953208D2.Up2Date
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\refint\BanHangDienMay.dll
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.pdb
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\BanHangDienMay.genruntimeconfig.cache
+E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\BanHangDienMay\obj\Debug\net8.0\ref\BanHangDienMay.dll

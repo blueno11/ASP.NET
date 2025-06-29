@@ -35,10 +35,6 @@ public partial class QlbanHangDienMayContext : DbContext
 
     public virtual DbSet<YeuCauDoiTra> YeuCauDoiTras { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Data Source=LAPTOP-ANGU9T8Q\\SQLEXPRESS;Initial Catalog=QLBanHangDienMay;Integrated Security=True;Encrypt=False");
-    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<ChiTietDonHang>(entity =>
@@ -128,6 +124,7 @@ public partial class QlbanHangDienMayContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .HasColumnName("email");
+            entity.Property(e => e.diemThuong).HasColumnName("diem_thuong");
             entity.Property(e => e.SoDienThoai)
                 .HasMaxLength(20)
                 .HasColumnName("so_dien_thoai");
@@ -215,9 +212,6 @@ public partial class QlbanHangDienMayContext : DbContext
 
             entity.Property(e => e.MaSanPham).HasColumnName("ma_san_pham");
             entity.Property(e => e.MaDanhMuc).HasColumnName("ma_danh_muc");
-            entity.Property(e => e.Gia)
-                 .HasColumnType("decimal(18,2)")
-                .HasColumnName("gia");
             entity.Property(e => e.SoLuong).HasColumnName("so_luong");
             entity.Property(e => e.SoThangBaoHanh)
                 .HasDefaultValue(0)
@@ -228,7 +222,10 @@ public partial class QlbanHangDienMayContext : DbContext
             entity.Property(e => e.TrangThai)
                 .HasMaxLength(50)
                 .HasColumnName("trang_thai");
-
+            entity.Property(e => e.LinkHinhAnh)
+                .HasMaxLength(300)
+                .HasColumnName("link_hinh_anh");
+            entity.Property(e => e.Gia).HasColumnName("gia");
             entity.HasOne(d => d.MaDanhMucNavigation).WithMany(p => p.SanPhams)
                 .HasForeignKey(d => d.MaDanhMuc)
                 .HasConstraintName("FK__SanPham__ma_danh__4BAC3F29");

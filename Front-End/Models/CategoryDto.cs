@@ -2,7 +2,7 @@
 {
     public class CategoryDto
     {
-        public int MaDanhMuc { get; set; }
-        public string TenDanhMuc { get; set; } = string.Empty; // Giá trị mặc định
+        public int MaDanhMuc { get; set; } = 0;
+        public string TenDanhMuc { get; set; } = "Lỗi"; // Giá trị mặc định
     }
 }

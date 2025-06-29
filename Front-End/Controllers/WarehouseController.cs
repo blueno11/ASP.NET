@@ -19,6 +19,10 @@ namespace Front_End.Controllers
         // GET: Hiển thị form nhập kho
         public async Task<IActionResult> InsertWarehouse()
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var client = _httpClientFactory.CreateClient("BanHangDienMayAPI");
 
             var response = await client.GetAsync("api/Warehouse/sanpham");

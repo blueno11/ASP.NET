@@ -1,12 +1,1155 @@
 {
   "Version": 1,
-  "Hash": "IvzSuCTx3Mq4s5zMbiZZ2H0f4FP0szdHPESKqVAJZWk=",
+  "Hash": "6SuJ3JZnLESmnfR/qa0hlvDBECif0R472w9L+nhA4wg=",
   "Source": "BanHangDienMay",
   "BasePath": "_content/BanHangDienMay",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "BanHangDienMay\\wwwroot",
+      "Source": "BanHangDienMay",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gfeqbgoro8",
+      "Integrity": "dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/7j3EHb#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rv7wrklajg",
+      "Integrity": "GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7j3EHb.png"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i04vxfs6p7",
+      "Integrity": "7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\download.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/loa-bluetooth-jbl-boombox-black-1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6uccggoxcv",
+      "Integrity": "AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdpbahyjot",
+      "Integrity": "v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/maysay#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "womzjb0wak",
+      "Integrity": "oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\maysay.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/may-say-toc-panasonic-eh-ne66-k645#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "womzjb0wak",
+      "Integrity": "oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "py3lu8vuza",
+      "Integrity": "r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2l8vs1qiw0",
+      "Integrity": "ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/tivi-samsung-4k-ua55au7700kxxv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hqjqe49qux",
+      "Integrity": "aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg"
+    },
+    {
+      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "SourceId": "BanHangDienMay",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "BasePath": "_content/BanHangDienMay",
+      "RelativePath": "uploads/tu-lanh-lg-inve_main_424_1020.png#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "43enckduc4",
+      "Integrity": "8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.gfeqbgoro8.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gfeqbgoro8"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7j3EHb.png",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7j3EHb.rv7wrklajg.png",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rv7wrklajg"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7j3EHb.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/download.i04vxfs6p7.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:31:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i04vxfs6p7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/download.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:31:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/loa-bluetooth-jbl-boombox-black-1.6uccggoxcv.webp",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6uccggoxcv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/loa-bluetooth-jbl-boombox-black-1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/loa-bluetooth-jbl-boombox-black-1.webp",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.tdpbahyjot.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdpbahyjot"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/maysay.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:13:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/maysay.womzjb0wak.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:13:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "womzjb0wak"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/maysay.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:11:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/may-say-toc-panasonic-eh-ne66-k645.womzjb0wak.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:11:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "womzjb0wak"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:58:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.py3lu8vuza.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:58:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "py3lu8vuza"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.2l8vs1qiw0.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2l8vs1qiw0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tivi-samsung-4k-ua55au7700kxxv.hqjqe49qux.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hqjqe49qux"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tu-lanh-lg-inve_main_424_1020.png.43enckduc4.webp",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:14:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "43enckduc4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp",
+      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:14:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k="
+        }
+      ]
+    }
+  ]
 }

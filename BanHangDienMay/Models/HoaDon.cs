@@ -9,13 +9,13 @@ public partial class HoaDon
 
     public int? MaKhachHang { get; set; }
 
-    public DateOnly NgayDat { get; set; }
+    public DateTime NgayDat { get; set; }
 
     public decimal TongTien { get; set; }
 
     public int? MaKhuyenMai { get; set; }
 
-    public int? MaNguoiDung { get; set; }
+    public int MaNguoiDung { get; set; }
 
     public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
 

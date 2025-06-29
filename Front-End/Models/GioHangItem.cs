@@ -1,7 +1,7 @@
 ﻿public class GioHangItem
 { 
     public int MaSanPham { get; set; }
-    public string TenSanPham { get; set; } = string.Empty;
+    public string TenSanPham { get; set; }
     public decimal Gia { get; set; }
     public int SoLuong { get; set; }
 

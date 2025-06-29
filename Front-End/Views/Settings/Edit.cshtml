@@ -1,0 +1,97 @@
+@{
+    ViewData["Title"] = "Sửa tài khoản";
+    var userId = ViewBag.UserId ?? 0;
+}
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="page-title">Sửa tài khoản</h2>
+        <a href="@Url.Action("Index", "Settings")" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <form id="editUserForm" autocomplete="off">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Tên đăng nhập <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="username" required />
+                </div>
+                <div class="mb-3">
+                    <label for="role" class="form-label">Vai trò <span class="text-danger">*</span></label>
+                    <select class="form-select" id="role" required>
+                        <option value="">Chọn vai trò</option>
+                        <option value="NhanVien">Nhân viên</option>
+                        <option value="QuanLy">Quản lý</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mật khẩu mới (nếu muốn đổi)</label>
+                    <input type="password" class="form-control" id="password" />
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Lưu thay đổi
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        const userId = @userId;
+        $(document).ready(function () {
+            // Tải dữ liệu user
+            $.get(`https://localhost:7156/api/auth/list`, function(users) {
+                const user = users.find(u => u.id == userId);
+                if (!user) {
+                    showAlert('Không tìm thấy tài khoản!', 'danger');
+                    setTimeout(function() { window.location.href = '@Url.Action("Index", "Settings")'; }, 1500);
+                    return;
+                }
+                $('#username').val(user.username);
+                $('#role').val(user.role);
+            });
+            // Submit form
+            $('#editUserForm').submit(function (e) {
+                e.preventDefault();
+                const username = $('#username').val().trim();
+                const role = $('#role').val();
+                const password = $('#password').val().trim();
+                if (!username || !role) {
+                    showAlert('Vui lòng nhập đầy đủ thông tin!', 'danger');
+                    return;
+                }
+                const user = { tenDangNhap: username, vaiTro: role };
+                if (password) user.matKhau = password;
+                $.ajax({
+                    url: `https://localhost:7156/api/auth/update/${userId}`,
+                    method: 'PUT',
+                    contentType: 'application/json',
+                    data: JSON.stringify(user),
+                    success: function () {
+                        showAlert('Cập nhật tài khoản thành công!', 'success');
+                        setTimeout(function() {
+                            window.location.href = '@Url.Action("Index", "Settings")';
+                        }, 1000);
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'Lỗi khi cập nhật tài khoản: ';
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            errorMessage += xhr.responseJSON.message;
+                        } else {
+                            errorMessage += xhr.status + ' - ' + xhr.statusText;
+                        }
+                        showAlert(errorMessage, 'danger');
+                    }
+                });
+            });
+            function showAlert(message, type) {
+                $('.alert').remove();
+                const alertHtml = `<div class="alert alert-${type} alert-dismissible fade show mt-3" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>`;
+                $('.card-body').prepend(alertHtml);
+            }
+        });
+    </script>
+} 

@@ -1,5 +1,908 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.gfeqbgoro8.jpg",
+      "AssetFile": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gfeqbgoro8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "AssetFile": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMmGIRiTg+b6WY1VOewY9+GIkhDmcTgJ5K21edJvCK4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7j3EHb.png",
+      "AssetFile": "uploads/7j3EHb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7j3EHb.rv7wrklajg.png",
+      "AssetFile": "uploads/7j3EHb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rv7wrklajg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GXWitaU9ma22LG22mjufgWceCG/wVCUL86H41lkanjc="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7j3EHb.png"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "AssetFile": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.tdpbahyjot.jpg",
+      "AssetFile": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdpbahyjot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5zHVI6KxYvl6cqDZTpBX3TqZrMPvJVMaaSYbrPoHUg="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/download.i04vxfs6p7.jpg",
+      "AssetFile": "uploads/download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:31:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i04vxfs6p7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/download.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/download.jpg",
+      "AssetFile": "uploads/download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:31:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7jycA7vFDwLxEmTRNhR/a2DS3l37uDl8TqlK83M9hiA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/loa-bluetooth-jbl-boombox-black-1.6uccggoxcv.webp",
+      "AssetFile": "uploads/loa-bluetooth-jbl-boombox-black-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6uccggoxcv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/loa-bluetooth-jbl-boombox-black-1.webp"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/loa-bluetooth-jbl-boombox-black-1.webp",
+      "AssetFile": "uploads/loa-bluetooth-jbl-boombox-black-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AiS7VDwq/luXoCI+qa1/OJQemISOs21fWygDP7GjNWM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "AssetFile": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:11:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/may-say-toc-panasonic-eh-ne66-k645.womzjb0wak.jpg",
+      "AssetFile": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:11:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "womzjb0wak"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/maysay.jpg",
+      "AssetFile": "uploads/maysay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:13:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/maysay.womzjb0wak.jpg",
+      "AssetFile": "uploads/maysay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:13:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "womzjb0wak"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oFx3FQCpEJsO4NQELdyio7N5gOFNu8CT+qM2VYhd4Sw="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/maysay.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "AssetFile": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:58:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.py3lu8vuza.jpg",
+      "AssetFile": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:58:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "py3lu8vuza"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4px1YGgbjGGZozh8+sfPstPc7u+V//fdCXYKxXg0eQ="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.2l8vs1qiw0.jpg",
+      "AssetFile": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2l8vs1qiw0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "AssetFile": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:09:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ymLpcIs/OvaNKKlKYCG7aXC/C9mCY9ZPMwBQvnYp+Cg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tivi-samsung-4k-ua55au7700kxxv.hqjqe49qux.jpg",
+      "AssetFile": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hqjqe49qux"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "AssetFile": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:08:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aVRgQLKOD38rI50PWe6BqK0QJ8E7S3wzYkMp5ZiM4g4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tu-lanh-lg-inve_main_424_1020.png.43enckduc4.webp",
+      "AssetFile": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:14:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "43enckduc4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp",
+      "AssetFile": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 16:14:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Kx7Udt5MRrooaB7z8RRnkfLMkTbFp25y+BMydPE63k="
+        }
+      ]
+    }
+  ]
 }

@@ -20,37 +20,41 @@
         else
         {
             <div class="mb-2"><b>Mã Sản Phẩm = @Model.MaSanPham</b></div>
-            <form id="editProductForm">
-                <input type="hidden" id="maSanPham" value="@Model.MaSanPham" />
+            <form asp-action="Edit" asp-controller="Products" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="MaSanPham" value="@Model.MaSanPham" />
                 <div class="form-group mb-3">
-                    <label for="tenSanPham" class="form-label">Tên sản phẩm</label>
-                    <input type="text" class="form-control" id="tenSanPham" value="@Model.TenSanPham" required />
+                    <label for="TenSanPham" class="form-label">Tên sản phẩm</label>
+                    <input type="text" class="form-control" id="TenSanPham" name="TenSanPham" value="@Model.TenSanPham" required />
                 </div>
                 <div class="form-group mb-3">
-                    <label for="maDanhMuc" class="form-label">Danh mục</label>
-                    <select class="form-control" id="maDanhMuc" required>
+                    <label for="MaDanhMuc" class="form-label">Danh mục</label>
+                    <select class="form-control" id="MaDanhMuc" name="MaDanhMuc" required>
                         <option value="">Chọn danh mục</option>
                     </select>
                 </div>
                 <div class="form-group mb-3">
-                    <label for="trangThai" class="form-label">Trạng thái</label>
-                    <select class="form-control" id="trangThai" required>
+                    <label for="TrangThai" class="form-label">Trạng thái</label>
+                    <select class="form-control" id="TrangThai" name="TrangThai" required>
                         <option value="ConHang">Còn hàng</option>
                         <option value="HetHang">Hết hàng</option>
                         <option value="NgungKinhDoanh">Ngừng kinh doanh</option>
                     </select>
                 </div>
                 <div class="form-group mb-3">
-                    <label for="soLuong" class="form-label">Số lượng</label>
-                    <input type="number" class="form-control" id="soLuong" value="@Model.SoLuong" min="0" required />
+                    <label for="SoLuong" class="form-label">Số lượng</label>
+                    <input type="number" class="form-control" id="SoLuong" name="SoLuong" value="@Model.SoLuong" min="0" required />
                 </div>
                 <div class="form-group mb-3">
-                    <label for="soThangBaoHanh" class="form-label">Số tháng bảo hành</label>
-                    <input type="number" class="form-control" id="soThangBaoHanh" value="@Model.SoThangBaoHanh" min="0" required />
+                    <label for="SoThangBaoHanh" class="form-label">Số tháng bảo hành</label>
+                    <input type="number" class="form-control" id="SoThangBaoHanh" name="SoThangBaoHanh" value="@Model.SoThangBaoHanh" min="0" required />
                 </div>
                 <div class="form-group mb-3">
-                    <label for="gia" class="form-label">Giá</label>
-                    <input type="number" class="form-control" id="gia" value="@Model.Gia" min="0" step="0.01" required />
+                    <label for="Gia" class="form-label">Giá</label>
+                    <input type="number" class="form-control" id="Gia" name="Gia" value="@Model.Gia" min="0" step="0.01" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="HinhAnh" class="form-label">Hình ảnh mới (nếu muốn đổi)</label>
+                    <input type="file" class="form-control" id="HinhAnh" name="HinhAnh" accept="image/*" />
                 </div>
                 <div class="d-flex justify-content-between">
                     <button type="submit" class="btn btn-warning w-50 me-2">
@@ -74,103 +78,28 @@
                 method: 'GET',
                 success: function (data) {
                     let options = '<option value="">Chọn danh mục</option>';
-                    const currentMaDanhMuc = parseInt('@Model.MaDanhMuc') || 0;
-                    if (Array.isArray(data)) {
-                        data.forEach(category => {
-                            if (category && 
-                                typeof category === 'object' && 
-                                category !== null &&
-                                'maDanhMuc' in category && 
-                                'tenDanhMuc' in category && 
-                                typeof category.maDanhMuc === 'number' && 
-                                !isNaN(category.maDanhMuc) &&
-                                typeof category.tenDanhMuc === 'string' &&
-                                category.tenDanhMuc.trim() !== '') {
-                                const isSelected = category.maDanhMuc === currentMaDanhMuc ? 'selected' : '';
-                                options += `<option value="${category.maDanhMuc}" ${isSelected}>${category.tenDanhMuc}</option>`;
-                            }
-                        });
-                    }
-                    $('#maDanhMuc').html(options);
+                    data.forEach(category => {
+                        options += `<option value="${category.maDanhMuc}">${category.tenDanhMuc}</option>`;
+                    });
+                    $('#MaDanhMuc').html(options);
                 },
                 error: function (xhr) {
                     alert('Lỗi khi tải danh mục: ' + (xhr.responseJSON?.message || xhr.status + ' - ' + xhr.statusText));
                 }
             });
 
-            $('#editProductForm').submit(function (e) {
-                e.preventDefault();
-                const maSanPham = parseInt($('#maSanPham').val());
-                const tenSanPham = $('#tenSanPham').val().trim();
-                const maDanhMuc = parseInt($('#maDanhMuc').val());
-                const trangThai = $('#trangThai').val();
-                const soLuong = parseInt($('#soLuong').val());
-                const soThangBaoHanh = parseInt($('#soThangBaoHanh').val());
-                const gia = parseFloat($('#gia').val());
+            // Hiển thị thông báo
+            var successMessage = '@TempData["SuccessMessage"]';
+            if (successMessage && successMessage !== '') {
+                alert(successMessage);
+            }
 
-                console.log('maSanPham:', maSanPham);
-
-                if (isNaN(maSanPham) || maSanPham <= 0) {
-                    alert('Mã sản phẩm không hợp lệ! Giá trị: ' + $('#maSanPham').val());
-                    return;
-                }
-                if (!tenSanPham) {
-                    alert('Vui lòng nhập tên sản phẩm!');
-                    return;
-                }
-                if (isNaN(maDanhMuc) || maDanhMuc <= 0) {
-                    alert('Vui lòng chọn danh mục!');
-                    return;
-                }
-                if (!trangThai) {
-                    alert('Vui lòng chọn trạng thái!');
-                    return;
-                }
-                if (isNaN(soLuong) || soLuong < 0) {
-                    alert('Số lượng không hợp lệ!');
-                    return;
-                }
-                if (isNaN(soThangBaoHanh) || soThangBaoHanh < 0) {
-                    alert('Số tháng bảo hành không hợp lệ!');
-                    return;
-                }
-                if (isNaN(gia) || gia < 0) {
-                    alert('Giá không hợp lệ!');
-                    return;
-                }
-
-                const product = {
-                    maSanPham: maSanPham,
-                    tenSanPham: tenSanPham,
-                    maDanhMuc: maDanhMuc,
-                    trangThai: trangThai,
-                    soLuong: soLuong,
-                    soThangBaoHanh: soThangBaoHanh,
-                    gia: gia
-                };
-
-                console.log('Dữ liệu gửi:', product);
-
-                $.ajax({
-                    url: `https://localhost:7156/api/products/Update/${maSanPham}`,
-                    method: 'PUT',
-                    contentType: 'application/json',
-                    data: JSON.stringify(product),
-                    success: function () {
-                        alert('Sửa sản phẩm thành công!');
-                        window.location.href = '@Url.Action("Index", "Products")';
-                    },
-                    error: function (xhr) {
-                        let errorMessage = 'Lỗi khi sửa sản phẩm: ';
-                        if (xhr.responseJSON && xhr.responseJSON.message) {
-                            errorMessage += xhr.responseJSON.message;
-                        } else {
-                            errorMessage += xhr.status + ' - ' + xhr.statusText;
-                        }
-                        alert(errorMessage);
-                    }
-                });
-            });
+            var errorMessage = '@TempData["ErrorMessage"]';
+            if (errorMessage && errorMessage !== '') {
+                alert(errorMessage);
+            }
         });
     </script>
 }
+
+

@@ -8,10 +8,12 @@ using System.Threading.Tasks;
 public class ProductsController : ControllerBase
 {
     private readonly QlbanHangDienMayContext _context;
+    private readonly IWebHostEnvironment _env;
 
-    public ProductsController(QlbanHangDienMayContext context)
+    public ProductsController(QlbanHangDienMayContext context, IWebHostEnvironment env)
     {
         _context = context;
+        _env = env;
     }
 
     // GET: api/products
@@ -40,7 +42,8 @@ public class ProductsController : ControllerBase
                 {
                     MaDanhMuc = p.MaDanhMucNavigation.MaDanhMuc,
                     TenDanhMuc = p.MaDanhMucNavigation.TenDanhMuc
-                } : null
+                } : null,
+                LinkHinhAnh = p.LinkHinhAnh
             })
             .ToListAsync();
 
@@ -64,11 +67,7 @@ public class ProductsController : ControllerBase
                 SoThangBaoHanh = p.SoThangBaoHanh,
                 SoLuong = p.SoLuong,
                 Gia = p.Gia,
-                MaDanhMucNavigation = p.MaDanhMucNavigation != null ? new CategoryDto
-                {
-                    MaDanhMuc = p.MaDanhMucNavigation.MaDanhMuc,
-                    TenDanhMuc = p.MaDanhMucNavigation.TenDanhMuc
-                } : null
+                LinkHinhAnh = p.LinkHinhAnh
             })
             .FirstOrDefaultAsync();
         if (product == null) return NotFound("Sản phẩm không tồn tại.");
@@ -76,9 +75,12 @@ public class ProductsController : ControllerBase
     }
 
     [HttpPost("Insert")]
-    public async Task<IActionResult> CreateProduct([FromBody] SanPham product)
+    public async Task<IActionResult> CreateProduct([FromForm] SanPham product, IFormFile? hinhAnh)
     {
-        if (product == null || string.IsNullOrWhiteSpace(product.TenSanPham))
+
+        
+
+        if (string.IsNullOrWhiteSpace(product.TenSanPham))
             return BadRequest("Tên sản phẩm không hợp lệ.");
 
         if (!await _context.DanhMucSanPhams.AnyAsync(c => c.MaDanhMuc == product.MaDanhMuc))
@@ -90,27 +92,43 @@ public class ProductsController : ControllerBase
         if (product.SoLuong < 0 || product.SoThangBaoHanh < 0)
             return BadRequest("Số lượng và số tháng bảo hành phải không âm.");
 
-        if (product.Gia < 0) // Kiểm tra giá trị âm
-            return BadRequest("Giá sản phẩm không được âm.");
+        if (hinhAnh != null && hinhAnh.Length > 0)
+        {
+            var uploadsFolder = Path.Combine(_env.WebRootPath, "uploads");
+            if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
+
+            var fileName = Path.GetFileName(hinhAnh.FileName);
+            var filePath = Path.Combine(uploadsFolder, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await hinhAnh.CopyToAsync(stream);
+            }
+
+            // Trả link đầy đủ bao gồm domain + path
+            var baseUrl = $"{Request.Scheme}://{Request.Host}";
+            product.LinkHinhAnh = $"{baseUrl}/uploads/{fileName}";
+        }
+
 
         _context.SanPhams.Add(product);
         await _context.SaveChangesAsync();
+
         return CreatedAtAction(nameof(GetProduct), new { id = product.MaSanPham }, product);
     }
 
     [HttpPut("Update/{id}")]
-    public async Task<IActionResult> UpdateProduct(int id, [FromBody] SanPham product)
+    public async Task<IActionResult> UpdateProduct(int id, [FromForm] SanPham product, IFormFile? hinhAnh)
     {
-        if (id != product.MaSanPham || string.IsNullOrWhiteSpace(product.TenSanPham))
-            return BadRequest("Dữ liệu không hợp lệ.");
+        if (id != product.MaSanPham)
+            return BadRequest("ID không khớp.");
 
         var existingProduct = await _context.SanPhams.FindAsync(id);
-        if (existingProduct == null) return NotFound("Sản phẩm không tồn tại.");
+        if (existingProduct == null)
+            return NotFound("Sản phẩm không tồn tại.");
 
         if (!await _context.DanhMucSanPhams.AnyAsync(c => c.MaDanhMuc == product.MaDanhMuc))
-        {
             return BadRequest("Danh mục không tồn tại.");
-        }
 
         if (product.TrangThai != "ConHang" && product.TrangThai != "HetHang" && product.TrangThai != "NgungKinhDoanh")
             return BadRequest("Trạng thái không hợp lệ.");
@@ -118,16 +136,33 @@ public class ProductsController : ControllerBase
         if (product.SoLuong < 0 || product.SoThangBaoHanh < 0)
             return BadRequest("Số lượng và số tháng bảo hành phải không âm.");
 
-        if (product.Gia < 0) // Kiểm tra giá trị âm
-            return BadRequest("Giá sản phẩm không được âm.");
-
         existingProduct.TenSanPham = product.TenSanPham;
         existingProduct.MaDanhMuc = product.MaDanhMuc;
         existingProduct.TrangThai = product.TrangThai;
-        existingProduct.SoThangBaoHanh = product.SoThangBaoHanh;
         existingProduct.SoLuong = product.SoLuong;
+        existingProduct.SoThangBaoHanh = product.SoThangBaoHanh;
         existingProduct.Gia = product.Gia;
+
+        if (hinhAnh != null && hinhAnh.Length > 0)
+        {
+            var uploadsFolder = Path.Combine(_env.WebRootPath, "uploads");
+            if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
+
+            var fileName = Path.GetFileName(hinhAnh.FileName);
+            var filePath = Path.Combine(uploadsFolder, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await hinhAnh.CopyToAsync(stream);
+            }
+
+            // Trả link đầy đủ bao gồm domain + path
+            var baseUrl = $"{Request.Scheme}://{Request.Host}";
+            existingProduct.LinkHinhAnh = $"{baseUrl}/uploads/{fileName}";
+        }
+
         await _context.SaveChangesAsync();
+
         return NoContent();
     }
 
@@ -139,14 +174,47 @@ public class ProductsController : ControllerBase
         if (product == null) return NotFound("Sản phẩm không tồn tại.");
 
         // Kiểm tra sản phẩm có liên kết với hóa đơn, đổi trả, bảo trì không
-        if (await _context.ChiTietDonHangs.AnyAsync(d => d.MaSanPham == id) ||
-            await _context.YeuCauDoiTras.AnyAsync(r => r.MaSanPham == id) ||
+        if (await _context.YeuCauDoiTras.AnyAsync(r => r.MaSanPham == id) ||
             await _context.YeuCauBaoTris.AnyAsync(m => m.MaSanPham == id))
             return BadRequest("Không thể xóa sản phẩm vì có dữ liệu liên quan.");
 
         _context.SanPhams.Remove(product);
         await _context.SaveChangesAsync();
         return NoContent();
+    }
+
+    [HttpGet("best-selling")]
+    public async Task<IActionResult> GetBestSellingProducts(int top = 5)
+    {
+        var bestSelling = await _context.ChiTietDonHangs
+            .Where(ct => ct.MaSanPham != null)
+            .GroupBy(ct => ct.MaSanPham)
+            .Select(g => new {
+                MaSanPham = g.Key.Value,
+                SoLuongBan = g.Sum(x => x.SoLuong)
+            })
+            .OrderByDescending(g => g.SoLuongBan)
+            .Take(top)
+            .ToListAsync();
+
+        var productIds = bestSelling.Select(x => x.MaSanPham).ToList();
+        var products = await _context.SanPhams
+            .Where(p => productIds.Contains(p.MaSanPham))
+            .ToListAsync();
+
+        var result = bestSelling.Select(x => {
+            var p = products.FirstOrDefault(p => p.MaSanPham == x.MaSanPham);
+            return new
+            {
+                MaSanPham = p?.MaSanPham,
+                TenSanPham = p?.TenSanPham,
+                SoLuongBan = x.SoLuongBan,
+                Gia = p?.Gia,
+                LinkHinhAnh = p?.LinkHinhAnh
+            };
+        });
+
+        return Ok(result);
     }
 }
 
@@ -163,6 +231,9 @@ public class ProductDto()
     public int? SoThangBaoHanh { get; set; }
 
     public int SoLuong { get; set; }
-    public decimal? Gia { get; set; }
+
+    public string? LinkHinhAnh { get; set; }
+    public decimal Gia { get; set; }
+
     public CategoryDto? MaDanhMucNavigation { get; set; } // Thêm thông tin danh mục
 }

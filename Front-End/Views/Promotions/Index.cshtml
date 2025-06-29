@@ -1,34 +1,44 @@
 ﻿@{
     ViewData["Title"] = "Quản lý khuyến mãi";
 }
-
-<h2>Quản lý khuyến mãi</h2>
-
-<p>
-    <a asp-action="Create" class="btn btn-primary">Tạo khuyến mãi mới</a>
-</p>
-
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Mã khuyến mãi</th>
-            <th>Tên khuyến mãi</th>
-            <th>Mô tả</th>
-            <th>Phần trăm giảm</th>
-            <th>Ngày bắt đầu</th>
-            <th>Ngày kết thúc</th>
-            <th>Hành động</th>
-        </tr>
-    </thead>
-    <tbody id="promotionTableBody">
-        <!-- Dữ liệu sẽ được điền bởi JavaScript -->
-    </tbody>
-</table>
-
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="page-title">Quản lý khuyến mãi</h2>
+        <a asp-action="Create" class="btn btn-primary rounded-pill">
+            <i class="fas fa-plus"></i> Tạo khuyến mãi mới
+        </a>
+    </div>
+    <div class="card shadow">
+        <div class="card-body">
+            <table class="table table-bordered table-hover align-middle mb-0">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th>Mã khuyến mãi</th>
+                        <th>Tên khuyến mãi</th>
+                        <th>Mô tả</th>
+                        <th>Phần trăm giảm</th>
+                        <th>Ngày bắt đầu</th>
+                        <th>Ngày kết thúc</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody id="promotionTableBody">
+                    <!-- Dữ liệu sẽ được điền bởi JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 @section Scripts {
     <script>
         $(document).ready(function () {
             loadPromotions();
+
+            function formatDate(dateStr) {
+                if (!dateStr) return '';
+                const d = new Date(dateStr);
+                return d.toLocaleDateString('vi-VN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+            }
 
             function loadPromotions() {
                 $.ajax({
@@ -39,16 +49,22 @@
                         data.forEach(function (promotion) {
                             rows += `
                                 <tr>
-                                    <td>${promotion.maKhuyenMai}</td>
+                                    <td class="text-center">${promotion.maKhuyenMai}</td>
                                     <td>${promotion.tenKhuyenMai}</td>
                                     <td>${promotion.moTa || 'N/A'}</td>
-                                    <td>${promotion.phanTramGiam}%</td>
-                                    <td>${promotion.ngayBatDau}</td>
-                                    <td>${promotion.ngayKetThuc}</td>
-                                    <td>
-                                        <a href="/Promotions/Edit/${promotion.maKhuyenMai}" class="btn btn-warning btn-sm">Sửa</a>
-                                        <button class="btn btn-danger btn-sm" onclick="deletePromotion(${promotion.maKhuyenMai})">Xóa</button>
-                                        <button class="btn btn-secondary btn-sm" onclick="endPromotion(${promotion.maKhuyenMai})">Kết thúc</button>
+                                    <td class="text-center">${promotion.phanTramGiam}%</td>
+                                    <td class="text-center">${formatDate(promotion.ngayBatDau)}</td>
+                                    <td class="text-center">${formatDate(promotion.ngayKetThuc)}</td>
+                                    <td class="text-center">
+                                        <a href="/Promotions/Edit/${promotion.maKhuyenMai}" class="btn btn-warning btn-sm rounded-pill me-1" title="Sửa">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <button class="btn btn-danger btn-sm rounded-pill me-1" onclick="deletePromotion(${promotion.maKhuyenMai})" title="Xóa">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                        <button class="btn btn-secondary btn-sm rounded-pill" onclick="endPromotion(${promotion.maKhuyenMai})" title="Kết thúc">
+                                            <i class="fas fa-stop-circle"></i>
+                                        </button>
                                     </td>
                                 </tr>`;
                         });

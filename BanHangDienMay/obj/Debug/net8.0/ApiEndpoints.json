@@ -1,5 +1,63 @@
 [
   {
+    "ContainingType": "BanHangDienMay.Controllers.ActivitiesController",
+    "Method": "GetRecentActivities",
+    "RelativePath": "api/Activities/recent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "top",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.AuthController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Auth/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BanHangDienMay.Models.NguoiDung",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.AuthController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Auth/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.AuthController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Auth/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BanHangDienMay.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -10,6 +68,27 @@
       {
         "Name": "request",
         "Type": "BanHangDienMay.Controllers.AuthController\u002BLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.AuthController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Auth/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "BanHangDienMay.Models.NguoiDung",
         "IsRequired": true
       }
     ],
@@ -241,6 +320,22 @@
   },
   {
     "ContainingType": "ProductsController",
+    "Method": "GetBestSellingProducts",
+    "RelativePath": "api/Products/best-selling",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "top",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Products/Delete/{id}",
     "HttpMethod": "DELETE",
@@ -264,9 +359,84 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "BanHangDienMay.Models.SanPham",
-        "IsRequired": true
+        "Name": "MaSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMuc",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenSanPham",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrangThai",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoThangBaoHanh",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoLuong",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkHinhAnh",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gia",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChiTietDonHangs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.ChiTietDonHang, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMucNavigation.MaDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMucNavigation.TenDanhMuc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMucNavigation.SanPhams",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.SanPham, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "NhapKhos",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.NhapKho, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "YeuCauBaoTris",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.YeuCauBaoTri, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "YeuCauDoiTras",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.YeuCauDoiTra, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "hinhAnh",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -301,9 +471,84 @@
         "IsRequired": true
       },
       {
-        "Name": "product",
-        "Type": "BanHangDienMay.Models.SanPham",
-        "IsRequired": true
+        "Name": "MaSanPham",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMuc",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenSanPham",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrangThai",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoThangBaoHanh",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoLuong",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkHinhAnh",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gia",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChiTietDonHangs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.ChiTietDonHang, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMucNavigation.MaDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMucNavigation.TenDanhMuc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaDanhMucNavigation.SanPhams",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.SanPham, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "NhapKhos",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.NhapKho, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "YeuCauBaoTris",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.YeuCauBaoTri, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "YeuCauDoiTras",
+        "Type": "System.Collections.Generic.ICollection\u00601[[BanHangDienMay.Models.YeuCauDoiTra, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "hinhAnh",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -425,6 +670,22 @@
   },
   {
     "ContainingType": "BanHangDienMay.Controllers.QLDonHangController",
+    "Method": "GetHoaDon",
+    "RelativePath": "api/QLDonHang/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.QLDonHangController",
     "Method": "Add",
     "RelativePath": "api/QLDonHang/Add",
     "HttpMethod": "POST",
@@ -466,6 +727,43 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.QLDonHangController",
+    "Method": "LaySoSanPhamBan",
+    "RelativePath": "api/QLDonHang/SanPhamBan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanHangDienMay.Controllers.QLDonHangController",
+    "Method": "TangDiemThuong",
+    "RelativePath": "api/QLDonHang/tangDiem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TangDiemRequest",
         "IsRequired": true
       }
     ],
@@ -551,26 +849,5 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BanHangDienMay.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BanHangDienMay.WeatherForecast, BanHangDienMay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

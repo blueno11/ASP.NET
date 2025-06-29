@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Front_End.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -14,9 +15,15 @@ namespace Front_End.Controllers
             _clientFactory = clientFactory;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index(DateTime? startDate, DateTime? endDate)
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
+
     }
 }

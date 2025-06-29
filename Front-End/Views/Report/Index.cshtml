@@ -4,6 +4,7 @@
 
 <div class="container-fluid">
     <h2 style="font-weight: bold; color: blue;" class="my-4">Báo cáo và thống kê</h2>
+
     <div class="row mb-3">
         <div class="col-md-4">
             <label for="startDate">Từ ngày</label>
@@ -14,43 +15,58 @@
             <input type="date" class="form-control" id="endDate" />
         </div>
         <div class="col-md-4 align-self-end">
-            <button id="filterBtn" class="btn btn-primary">
+            <button id="filterBtn" class="btn btn-primary w-100">
                 <i class="fas fa-filter"></i> Lọc
             </button>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <h5 class="card-title">Tổng khách hàng</h5>
-                    <p class="card-text" id="customerCount">0</p>
+                    <p class="card-text fs-4 fw-bold text-success" id="customerCount">0</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <h5 class="card-title">Tổng hóa đơn</h5>
-                    <p class="card-text" id="invoiceCount">0</p>
+                    <p class="card-text fs-4 fw-bold text-info" id="invoiceCount">0</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
                 <div class="card-body">
                     <h5 class="card-title">Tổng doanh thu</h5>
-                    <p class="card-text" id="totalRevenue">0</p>
+                    <p class="card-text fs-4 fw-bold text-primary" id="totalRevenue">0</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row mt-4">
-        <div class="col-12">
-            <div class="card">
+
+    <div class="row">
+        <!-- Sản phẩm đã bán -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-trending-up"></i> Sản phẩm đã bán</h5>
+                    <div class="products-table" id="topProducts" style="max-height: 400px; overflow-y: auto;">
+                        <!-- Nội dung sẽ được load bằng JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Biểu đồ doanh thu -->
+        <div class="col-md-8">
+            <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Doanh thu theo ngày</h5>
-                    <canvas id="revenueChart"></canvas>
+                    <canvas id="revenueChart" style="height: 350px;"></canvas>
                 </div>
             </div>
         </div>
@@ -61,7 +77,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         $(document).ready(function () {
-            // Khởi tạo biểu đồ
             const ctx = document.getElementById('revenueChart').getContext('2d');
             let revenueChart = new Chart(ctx, {
                 type: 'line',
@@ -72,18 +87,24 @@
                         data: [],
                         borderColor: '#007bff',
                         backgroundColor: 'rgba(0, 123, 255, 0.1)',
-                        fill: true
+                        fill: true,
+                        tension: 0.3
                     }]
                 },
                 options: {
+                    responsive: true,
                     scales: {
-                        x: { title: { display: true, text: 'Ngày' } },
-                        y: { title: { display: true, text: 'Doanh thu' }, beginAtZero: true }
+                        x: {
+                            title: { display: true, text: 'Ngày' }
+                        },
+                        y: {
+                            title: { display: true, text: 'Doanh thu (VND)' },
+                            beginAtZero: true
+                        }
                     }
                 }
             });
 
-            // Load dữ liệu báo cáo
             function loadReport(startDate, endDate) {
                 let url = 'https://localhost:7156/api/report/summary';
                 if (startDate && endDate) {
@@ -96,9 +117,11 @@
                     success: function (data) {
                         $('#customerCount').text(data.customerCount);
                         $('#invoiceCount').text(data.invoiceCount);
-                        $('#totalRevenue').text(data.totalRevenue.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+                        $('#totalRevenue').text(data.totalRevenue.toLocaleString('vi-VN', {
+                            style: 'currency',
+                            currency: 'VND'
+                        }));
 
-                        // Cập nhật biểu đồ
                         const labels = data.dailyRevenue.map(item => new Date(item.date).toLocaleDateString('vi-VN'));
                         const revenueData = data.dailyRevenue.map(item => item.revenue);
                         revenueChart.data.labels = labels;
@@ -106,21 +129,54 @@
                         revenueChart.update();
                     },
                     error: function (xhr) {
-                        let errorMessage = 'Lỗi khi tải báo cáo: ';
-                        if (xhr.responseJSON && xhr.responseJSON.message) {
-                            errorMessage += xhr.responseJSON.message;
-                        } else {
-                            errorMessage += xhr.status + ' - ' + xhr.statusText;
-                        }
-                        alert(errorMessage);
+                        let msg = 'Lỗi khi tải báo cáo: ';
+                        msg += xhr.responseJSON?.message ?? (xhr.status + ' - ' + xhr.statusText);
+                        alert(msg);
                     }
                 });
             }
 
-            // Gọi load báo cáo khi trang được tải
-            loadReport();
+            function loadProducts(startDate, endDate) {
+                let url = 'https://localhost:7156/api/QLDonHang/SanPhamBan';
+                if (startDate && endDate) {
+                    url += `?startDate=${startDate}&endDate=${endDate}`;
+                }
 
-            // Xử lý lọc theo ngày
+                $.ajax({
+                    url: url,
+                    method: 'GET',
+                    success: function (data) {
+                        const container = $('#topProducts');
+                        container.empty();
+
+                        if (data?.length > 0) {
+                            data.forEach((item, index) => {
+                                const productHtml = `
+                                            <div class="product-row d-flex align-items-center py-2 border-bottom">
+                                                <div class="product-rank fw-bold text-primary me-3">${index + 1}</div>
+                                                <div class="product-info">
+                                                    <div class="product-name">${item.tenSanPham}</div>
+                                                    <div class="product-qty text-muted">Đã bán: <b>${item.tongSoLuong}</b></div>
+                                                </div>
+                                            </div>
+                                        `;
+                                container.append(productHtml);
+                            });
+                        } else {
+                            container.html('<div class="text-muted">Không có sản phẩm nào.</div>');
+                        }
+                    },
+                    error: function () {
+                        $('#topProducts').html('<div class="text-danger">Lỗi khi tải sản phẩm đã bán.</div>');
+                    }
+                });
+            }
+
+            // Gọi khi load trang
+            loadReport();
+            loadProducts();
+
+            // Bắt sự kiện lọc
             $('#filterBtn').click(function () {
                 const startDate = $('#startDate').val();
                 const endDate = $('#endDate').val();
@@ -129,6 +185,7 @@
                     return;
                 }
                 loadReport(startDate, endDate);
+                loadProducts(startDate, endDate);
             });
         });
     </script>

@@ -103,7 +103,7 @@
             try {
                 const response = await fetch(`${API_BASE_URL}/api/customer/List`);
                 if (!response.ok) throw new Error('Lỗi khi tải danh sách khách hàng');
-                
+
                 customers = await response.json();
                 displayCustomers();
             } catch (error) {
@@ -115,7 +115,7 @@
         function displayCustomers() {
             const tbody = document.querySelector('#customerTable tbody');
             tbody.innerHTML = '';
-            
+
             customers.forEach(customer => {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
@@ -146,15 +146,15 @@
                 email: document.getElementById('email').value,
                 diaChi: document.getElementById('diaChi').value
             };
-            
+
             try {
                 const url = customerId ? `${API_BASE_URL}/api/customer/Update/${customerId}` : `${API_BASE_URL}/api/customer/Insert`;
                 const method = customerId ? 'PUT' : 'POST';
-                
+
                 if (customerId) {
                     customer.maKhachHang = parseInt(customerId);
                 }
-                
+
                 const response = await fetch(url, {
                     method: method,
                     headers: {
@@ -162,12 +162,12 @@
                     },
                     body: JSON.stringify(customer)
                 });
-                
+
                 if (!response.ok) {
                     const error = await response.text();
                     throw new Error(error);
                 }
-                
+
                 customerModal.hide();
                 resetForm();
                 loadCustomers();
@@ -180,13 +180,13 @@
         function editCustomer(id) {
             const customer = customers.find(c => c.maKhachHang === id);
             if (!customer) return;
-            
+
             document.getElementById('customerId').value = customer.maKhachHang;
             document.getElementById('tenKhachHang').value = customer.tenKhachHang;
             document.getElementById('soDienThoai').value = customer.soDienThoai || '';
             document.getElementById('email').value = customer.email || '';
             document.getElementById('diaChi').value = customer.diaChi || '';
-            
+
             document.getElementById('modalTitle').textContent = 'Sửa thông tin khách hàng';
             customerModal.show();
         }
@@ -200,14 +200,14 @@
         // Xử lý xóa khách hàng
         document.getElementById('confirmDelete').addEventListener('click', async function() {
             if (!customerToDelete) return;
-            
+
             try {
                 const response = await fetch(`${API_BASE_URL}/api/customer/Delete/${customerToDelete}`, {
                     method: 'DELETE'
                 });
-                
+
                 if (!response.ok) throw new Error('Lỗi khi xóa khách hàng');
-                
+
                 deleteModal.hide();
                 loadCustomers();
             } catch (error) {

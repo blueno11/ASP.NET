@@ -17,17 +17,29 @@ namespace Front_End.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
 
         public IActionResult Create()
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
 
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
+            if (HttpContext.Session.GetInt32("MaNguoiDung") == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var client = _clientFactory.CreateClient("BanHangDienMayAPI");
             try
             {
