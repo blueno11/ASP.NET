@@ -192,3 +192,38 @@ E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-ma
 E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.pdb
 E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
 E:\.NET\cuoiKyNet-DuyToan(QLDonHang) (1)\cuoiKyNet-DuyToan(QLDonHang)\ASP.NET-main\Front-End\obj\Debug\net8.0\ref\Front-End.dll
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\appsettings.Development.json
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\appsettings.json
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.endpoints.json
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.staticwebassets.runtime.json
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.exe
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.deps.json
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.runtimeconfig.json
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.dll
+E:\Github\ASP.NET\Front-End\bin\Debug\net8.0\Front-End.pdb
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfoInputs.cache
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.AssemblyInfo.cs
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.csproj.CoreCompileInputs.cache
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.MvcApplicationPartsAssemblyInfo.cache
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cache
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.RazorAssemblyInfo.cs
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.sourcelink.json
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\bundle\Front-End.styles.css
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\scopedcss\projectbundle\Front-End.bundle.scp.css
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.build.json
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.development.json
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.Front-End.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.build.Front-End.props
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Front-End.props
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Front-End.props
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.dll
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\refint\Front-End.dll
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.pdb
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\Front-End.genruntimeconfig.cache
+E:\Github\ASP.NET\Front-End\obj\Debug\net8.0\ref\Front-End.dll

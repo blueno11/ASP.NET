@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\Front-End\\Front-End.csproj": {}
+    "E:\\Github\\ASP.NET\\Front-End\\Front-End.csproj": {}
   },
   "projects": {
-    "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\Front-End\\Front-End.csproj": {
+    "E:\\Github\\ASP.NET\\Front-End\\Front-End.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\Front-End\\Front-End.csproj",
+        "projectUniqueName": "E:\\Github\\ASP.NET\\Front-End\\Front-End.csproj",
         "projectName": "Front-End",
-        "projectPath": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\Front-End\\Front-End.csproj",
+        "projectPath": "E:\\Github\\ASP.NET\\Front-End\\Front-End.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\Front-End\\obj\\",
+        "outputPath": "E:\\Github\\ASP.NET\\Front-End\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

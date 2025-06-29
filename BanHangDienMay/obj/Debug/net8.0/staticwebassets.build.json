@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6SuJ3JZnLESmnfR/qa0hlvDBECif0R472w9L+nhA4wg=",
+  "Hash": "+hsHLK/H/WriYLW+A+CDCdm6SGjCxq1XH35ZrnzAedQ=",
   "Source": "BanHangDienMay",
   "BasePath": "_content/BanHangDienMay",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BanHangDienMay\\wwwroot",
       "Source": "BanHangDienMay",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/7j3EHb#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\7j3EHb.png"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/download#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\download.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/loa-bluetooth-jbl-boombox-black-1#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/maysay#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\maysay.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/may-say-toc-panasonic-eh-ne66-k645#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/tivi-samsung-4k-ua55au7700kxxv#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg"
     },
     {
-      "Identity": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "Identity": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
       "SourceId": "BanHangDienMay",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\",
+      "ContentRoot": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\",
       "BasePath": "_content/BanHangDienMay",
       "RelativePath": "uploads/tu-lanh-lg-inve_main_424_1020.png#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -251,7 +251,7 @@
   "Endpoints": [
     {
       "Route": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.gfeqbgoro8.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -296,7 +296,7 @@
     },
     {
       "Route": "uploads/14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\14568_dieu_hoa_daikin_inverter_1_hp_ftkb25wmvmv.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -333,7 +333,7 @@
     },
     {
       "Route": "uploads/7j3EHb.png",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -370,7 +370,7 @@
     },
     {
       "Route": "uploads/7j3EHb.rv7wrklajg.png",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\7j3EHb.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -415,7 +415,7 @@
     },
     {
       "Route": "uploads/download.i04vxfs6p7.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -460,7 +460,7 @@
     },
     {
       "Route": "uploads/download.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\download.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -497,7 +497,7 @@
     },
     {
       "Route": "uploads/loa-bluetooth-jbl-boombox-black-1.6uccggoxcv.webp",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -542,7 +542,7 @@
     },
     {
       "Route": "uploads/loa-bluetooth-jbl-boombox-black-1.webp",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\loa-bluetooth-jbl-boombox-black-1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -579,7 +579,7 @@
     },
     {
       "Route": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -616,7 +616,7 @@
     },
     {
       "Route": "uploads/May-hut-bui-Electrolux-PC91-5IBM-ava.tdpbahyjot.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\May-hut-bui-Electrolux-PC91-5IBM-ava.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -661,7 +661,7 @@
     },
     {
       "Route": "uploads/maysay.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -698,7 +698,7 @@
     },
     {
       "Route": "uploads/maysay.womzjb0wak.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\maysay.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -743,7 +743,7 @@
     },
     {
       "Route": "uploads/may-say-toc-panasonic-eh-ne66-k645.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -780,7 +780,7 @@
     },
     {
       "Route": "uploads/may-say-toc-panasonic-eh-ne66-k645.womzjb0wak.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\may-say-toc-panasonic-eh-ne66-k645.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -825,7 +825,7 @@
     },
     {
       "Route": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -862,7 +862,7 @@
     },
     {
       "Route": "uploads/quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.py3lu8vuza.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\quat-dung-midea-fs40-10navn-k-55w-thumb-638729643598500744-300x300.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -907,7 +907,7 @@
     },
     {
       "Route": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.2l8vs1qiw0.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -952,7 +952,7 @@
     },
     {
       "Route": "uploads/say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\say-toc-panasonic-eh-nd11-a645-110123-022739-600x600.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "Route": "uploads/tivi-samsung-4k-ua55au7700kxxv.hqjqe49qux.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1034,7 +1034,7 @@
     },
     {
       "Route": "uploads/tivi-samsung-4k-ua55au7700kxxv.jpg",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\tivi-samsung-4k-ua55au7700kxxv.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1071,7 +1071,7 @@
     },
     {
       "Route": "uploads/tu-lanh-lg-inve_main_424_1020.png.43enckduc4.webp",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1116,7 +1116,7 @@
     },
     {
       "Route": "uploads/tu-lanh-lg-inve_main_424_1020.png.webp",
-      "AssetFile": "E:\\.NET\\cuoiKyNet-DuyToan(QLDonHang) (1)\\cuoiKyNet-DuyToan(QLDonHang)\\ASP.NET-main\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
+      "AssetFile": "E:\\Github\\ASP.NET\\BanHangDienMay\\wwwroot\\uploads\\tu-lanh-lg-inve_main_424_1020.png.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {

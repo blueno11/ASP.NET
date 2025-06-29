@@ -104,6 +104,10 @@
                     <span asp-validation-for="MatKhau" class="text-danger"></span>
                 </div>
                 <button type="submit" class="btn btn-primary w-100 mt-2">Đăng nhập <i class="fa fa-arrow-right ms-1"></i></button>
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success text-center">@TempData["SuccessMessage"]</div>
+                }
                 @if (!string.IsNullOrEmpty(ViewBag.Error))
                 {
                     <div class="error-message">@ViewBag.Error</div>

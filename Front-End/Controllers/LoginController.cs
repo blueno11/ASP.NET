@@ -35,11 +35,13 @@ namespace Front_End.Controllers
                     HttpContext.Session.SetInt32("MaNguoiDung", userInfo.MaNguoiDung);
                     HttpContext.Session.SetString("TenDangNhap", userInfo.TenDangNhap);
                     HttpContext.Session.SetString("VaiTro", userInfo.VaiTro);
+                    TempData["SuccessMessage"] = "Đăng nhập thành công!";
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
                     ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không đúng");
+                    ViewBag.Error = "Tên đăng nhập hoặc mật khẩu không đúng";
                     return View(model);
                 }
             }
